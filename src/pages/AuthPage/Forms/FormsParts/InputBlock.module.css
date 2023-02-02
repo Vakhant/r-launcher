@@ -1,0 +1,71 @@
+.input_block{
+  display: flex;
+  flex-wrap: wrap;
+  width: 266px;
+  margin-bottom: 28px;
+}
+.input_block_label{
+  width: 100%;
+  font-size: 16px;
+  line-height: 20px;
+  padding-left: 20px;
+  margin-bottom: 10px;
+}
+.requiret_filed_star{
+  color: #ed3f4e;
+}
+.input_text{
+    font-family: "SFUIDisplay-Medium";
+  width: 202px;
+  font-size: 16px;
+  border: 2px solid rgba(255,255,255,.5);
+  color: rgba(255,255,255,.5);
+  background-color: transparent;
+  padding: 10px 20px;
+  padding-right: 40px;
+  outline: none;
+  border-radius: 5px;
+  background-repeat: no-repeat;
+  opacity: 0.5;
+}
+.input_text:focus, .input_text_touched{
+  color: #fff;
+  border: 2px solid rgba(255,255,255,.5);
+  opacity: 1;
+}
+.input_text_login, .input_text_login:focus{
+  background-image: url(../../../../../public/imgs/icons/auth_page/login.svg);
+  background-position: calc(100% - 25px) 13px ;
+}
+.input_text_email, .input_text_email:focus{
+  background-image: url(../../../../../public/imgs/icons/auth_page/email.svg);
+  background-position: calc(100% - 25px) 16px ;
+}
+.input_text_password, .input_text_password:focus{
+  background-image: url(../../../../../public/imgs/icons/auth_page/password.svg);
+  background-position: calc(100% - 25px) 13px ;
+}
+.input_text_password, .input_text_password:focus{
+  background-image: url(../../../../../public/imgs/icons/auth_page/password.svg);
+  background-position: calc(100% - 25px) 13px ;
+}
+.input_text_code, .input_text_code:focus{
+  background-image: url(../../../../../public/imgs/icons/auth_page/code.svg);
+  background-position: calc(100% - 22px) 19px ;
+}
+.input_text_error, .input_text_error:focus{
+  border: 2px solid #ed3f4e;
+  background-image: url(../../../../../public/imgs/icons/auth_page/error.svg);
+  background-position: calc(100% - 25px) 16px ;
+}
+.input_text_attention, .input_text_attention:focus{
+  border: 2px solid #cdb547;
+  background-image: url(../../../../../public/imgs/icons/auth_page/attention.svg);
+  background-position: calc(100% - 29px) 15px ;
+}
+.input_text::placeholder{
+  color: rgba(255,255,255,1);
+    font-family: "SFUIDisplay-Medium";
+  font-size: 16px;
+  line-height: 20px;
+}

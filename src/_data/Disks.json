@@ -1,0 +1,13 @@
+{
+    "diskList": [
+        {"id": 1, "key": "S", "space": "816.53 гб.", "chosen": false},
+        {"id": 2, "key": "V", "space": "248.65 гб.", "chosen": true},
+        {"id": 3, "key": "X", "space": "202.51 гб.", "chosen": false},
+        {"id": 4, "key": "C", "space": "77.57 гб.", "chosen": false},
+        {"id": 5, "key": "F", "space": "77.57 гб.", "chosen": false},
+        {"id": 6, "key": "G", "space": "77.57 гб.", "chosen": false},
+        {"id": 7, "key": "H", "space": "77.57 гб.", "chosen": false},
+        {"id": 8, "key": "J", "space": "77.57 гб.", "chosen": false}
+      ]
+}
+

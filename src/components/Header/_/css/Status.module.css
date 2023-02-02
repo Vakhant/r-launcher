@@ -1,0 +1,17 @@
+.status_icon{
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.status_icon_plat{
+	background-color: #55606d;
+}
+.status_icon_gold{
+	background-color: #c4b157;
+}
+.status_icon_silv{
+	background-color: #9fa9b0;
+}

@@ -1,0 +1,109 @@
+.server_block{
+    height: 100px;
+    border: 3px solid rgba(255,255,255,.5);
+    margin-bottom: 31px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 27px;
+    position: relative;
+}
+.server_block:last-child{
+    margin-bottom: 0;
+}
+.server_block>*{
+    z-index: 5;
+}
+.server_block_bg{
+    z-index: 0;
+    position: absolute;
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    left: -2px; top: -2px;
+    background: linear-gradient(90deg, #ffffff30, transparent);
+    transition: .5s;
+    opacity: 0;
+}
+.server_block:hover .server_block_bg{
+    opacity: 1;
+}
+.server_main_info{
+    margin: 0 20px; 
+}
+.server_name{
+    font-family: 'Montserrat-MediumItalic';
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.server_users_number{
+    font-size: 15px;
+    font-family: 'SFUIDisplay-Regular';
+}
+.server_users_number span{
+    color: #fff;
+}
+.server_block_img{
+    height: 100%;
+    width: 83px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.monitoring_btn{
+    justify-content:space-between;
+    width:176px;
+    padding: 0 15px;
+}
+.button_play{
+    box-sizing: border-box;
+	border-radius: 5px;
+	padding: 0 17px;
+    height: 38px;
+    width: 106px;
+	background: linear-gradient(90deg,#39a656, #2f6e3f);
+	display: flex;
+	align-items: center;
+	color: #fff;
+    cursor: pointer;
+    margin-right: 20px;
+}
+.button_play_icon{
+	margin-right: 12px;
+}
+.button_play_txt{
+	font-size: 15px;
+	font-family: 'SFUIDisplay-Medium';
+}
+.server_vip_info{
+    font-family: 'The_Stamshons_Demo';
+    font-size: 32px;
+    color: #3fa55a;
+}
+.server_vip_wrap{
+    width: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 20px;
+}
+.server_vip_info_btn{
+    width: 22px;
+    height: 22px;
+    padding: 0;
+    opacity: 0.7;
+    transition: .3s;
+    cursor: pointer;
+}
+.monitoring_btn{
+    margin-left: auto;
+    height: 34px;
+}
+.server_vip_info_btn:hover{
+    opacity: 1;
+}
+.server_block_chosen .monitoring_btn{
+    opacity: 1;
+}
+.server_block_chosen .server_block_bg{
+    opacity: 1;
+}

@@ -1,0 +1,39 @@
+{
+    "settingSliders": [
+        {"id": 1, "name":"Режим экрана",
+            "settingsList":[
+                {"id": 1, "name":"Без рамок", "recomended": false, "choosen": false},
+                {"id": 2, "name":"С рамкой", "recomended": false, "choosen": true},
+                {"id": 3, "name":"Полный экран", "recomended": true, "choosen": false}
+            ]
+        },
+        {"id": 2, "name":"Разрешение игры",
+            "settingsList":[
+                {"id": 1, "name":"120 х 86", "recomended": false, "choosen": false},
+                {"id": 2, "name":"360 х 240", "recomended": false, "choosen": false},
+                {"id": 3, "name":"480 x 360", "recomended": false, "choosen": false},
+                {"id": 4, "name":"1920 x 1080", "recomended": true, "choosen": true}
+            ]
+        },
+        {"id": 3, "name":"Качество винилов",
+            "settingsList":[
+                {"id": 1, "name":"Низкое", "recomended": false, "choosen": false},
+                {"id": 2, "name":"Среднее", "recomended": false, "choosen": false},
+                {"id": 3, "name":"Высокое", "recomended": false, "choosen": false},
+                {"id": 4, "name":"Ультра", "recomended": true, "choosen": true}
+            ]
+        },
+        {"id": 4, "name":"Внутриигровая графика",
+            "settingsList":[
+                {"id": 1, "name":"Низкое", "recomended": false, "choosen": false},
+                {"id": 2, "name":"Среднее", "recomended": false, "choosen": true},
+                {"id": 3, "name":"Высокое", "recomended": false, "choosen": false},
+                {"id": 4, "name":"Ультра", "recomended": true, "choosen": false}
+            ]
+        }
+    ],
+    "settingOnOffs": [
+        {"id": 1, "name":"Сглаживание «FXAA»", "on": true},
+        {"id": 2, "name":"Улучшенный дождь", "on": false}
+    ]
+}

@@ -1,0 +1,8 @@
+.settings_game_content{
+  padding-right: 25px;
+  width: 620px;
+  overflow: auto;
+}
+.settings_game_content>*{
+  width: initial;
+}

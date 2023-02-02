@@ -1,0 +1,58 @@
+.settings_popup{
+  width: 866px;
+  left: 210px;
+  height: 506px;
+  top: 120px;
+  position: absolute;
+  padding: 0 14px;
+  background-color: #000;
+	opacity: 1;
+  z-index: 1000;
+	visibility: visible;
+	transition: opacity .5s, visibility 0s;
+}
+.settings_popup_hidden{
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity .5s, visibility .5s 0s;
+}
+.settings_header{
+  width: 804px;
+  padding: 40px 32px;
+  margin: 0 auto;
+  border-bottom: 2px solid rgba(255, 255, 255, .15);
+  display: flex;
+  justify-content: space-between;
+}
+.settings_h{
+  font-size: 22px;
+  color: #fff;
+  font-family: "SFUIDisplay-SemiBold";
+  display: flex;
+  align-items: center;
+  padding: 0;
+}
+.settings_h img{
+  margin-right: 20px;
+}
+.settings_esc{
+  opacity: 0.35;
+  cursor: pointer;
+  transition: .3s;
+}
+.settings_esc:hover{
+  opacity: 1;
+}
+.settings_content{
+  display: flex;
+  padding-right: 30px;
+  border-bottom: 2px solid rgba(255,255,255,.15);
+}
+.settings_aside{
+  display: flex;
+  flex-direction: column;
+  width: 202px;
+  height: 340px;
+  border-right: 2px solid rgba(255,255,255,.15);
+  padding: 10px;
+}

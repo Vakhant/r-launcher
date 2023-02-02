@@ -1,0 +1,38 @@
+
+.server_nav{
+	margin-top: 5px;
+	margin-left: 46px;
+	display: flex;
+	align-items: center;
+}
+.btn_play_wrap{
+	border-radius: 7px;
+	background: linear-gradient(90deg,#2e7440, transparent);
+	cursor: pointer;
+	margin-right: 14px;
+	height: inherit;
+}
+.button_play{
+	border-radius: 5px;
+	margin: 3px;
+	padding: 7px 28px 7px 26px;
+	background: linear-gradient(90deg,#39a656, #2f6e3f);
+	display: flex;
+	align-items: center;
+	color: #fff;
+	height: 24px;
+}
+.button_play_icon{
+	margin-right: 12px;
+}
+.button_play_txt{
+	font-size: 19px;
+	font-family: 'SFUIDisplay-Medium';
+}
+
+.btn_play_act.btn_play_wrap{
+	background: linear-gradient(90deg,#1e2f4c, transparent);
+}
+.btn_play_act .button_play{
+	background: linear-gradient(90deg,#4571ba, #3d67aa);
+}

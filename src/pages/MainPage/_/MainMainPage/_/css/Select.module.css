@@ -1,0 +1,92 @@
+.select{
+	position: relative;
+    width: 198px;
+    color: rgba(255,255,255,.44);
+}
+.select_arrow{
+	content:'';
+	display: block;
+	position: absolute; top: 0; right: 21px;
+	width: 21px; height: 100%;
+	background-image: url('../../../../../../_assets/imgs/icons/main_page/select_function.svg');
+	background-repeat: no-repeat;
+	background-position: center;
+	opacity: .44;
+	transition: .3s;
+	transform: scaleY(1);
+	cursor: pointer;
+}
+.select_input{
+	font-family: 'SFUIDisplay-Semibold';
+	background-color: inherit;
+	border: 2px solid rgba(255,255,255,.24);
+	color: rgba(255,255,255,.44);
+	padding: 7px 19px;
+	font-size: 16px;
+	line-height: 20px;
+	border-radius: 7px;
+	width: 156px;
+	outline: none;
+	transition: .3s;
+	cursor: pointer;
+}
+.option_list{
+	position: absolute;
+	top: 100%;
+	left: 0;
+	width: 100%;
+	z-index: 50;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity .3s, top .3s, visibility 0s;
+}
+.option{
+	background-color: #1f2223;
+	display: flex;
+	padding: 0 20px;
+	line-height: 40px;
+	cursor: pointer;
+	border-bottom: 1px solid rgba(255,255,255,.24);
+	transition: .3s;
+	position: relative;
+}
+.option:first-child{
+	border-radius: 5px 5px 0 0 ;
+}
+.option:last-child{
+	border-radius: 0 0 5px 5px;
+	border-bottom: 0;
+}
+.option:hover, .option_chosen{
+	color: rgba(255,255,255);
+}
+.option:after{
+	content:'';
+	display: block;
+	position: absolute; top: 0; right: 21px;
+	width: 21px; height: 100%;
+	background-image: url('../../../../../../_assets/imgs/icons/main_page/select_check-mark.svg');
+	background-repeat: no-repeat;
+	background-position: center;
+	transition: .3s;
+	opacity: 0;
+}
+.option_chosen:after{
+	opacity: 1;
+}
+
+
+.select_active .select_input{
+	color: rgb(255,255,255);
+}
+.select_active .select_arrow{
+	color: rgb(255,255,255);
+	opacity: 1;
+	transform: scaleY(-1);
+}
+.select_active .option_list{
+	opacity: 1;
+	top: calc(100% + 18px);
+	visibility: visible;
+
+}

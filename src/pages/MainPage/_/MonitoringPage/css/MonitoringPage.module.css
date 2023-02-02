@@ -1,0 +1,33 @@
+.monitoring_content{
+    position: relative;
+}
+.all_servers_info{
+    width: 817px;
+    margin: 30px 0;
+    margin-left: 40px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 17px;
+}
+.all_servers_info_txt{
+    margin-left: 30px;
+}
+.all_servers_info_users_number{
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+.all_servers_info_users_number img{
+    margin-right: 20px;
+}
+.servers_list{
+    width: 817px;
+    margin-left: 40px;
+    height: 380px;
+    overflow: scroll;
+    margin-bottom: 30px;
+    padding-right: 25px;
+}
+.server_list_scroll_hidden::-webkit-scrollbar-thumb{
+    background-color: rgba(255,255,255,0);
+}

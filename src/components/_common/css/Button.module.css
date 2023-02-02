@@ -1,0 +1,33 @@
+.btn{
+	display: flex;
+	border-radius: 6px;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+    font-size: 15px;
+}
+.gradient_btn{
+	height: 38px;
+	background-image: linear-gradient(90deg, #51abc0, #4873d3);
+	color: #fff;
+}
+.grey_btn{
+	height: 34px;
+	color: rgba(255, 255, 255, 1);
+	border: solid 2px rgba(255, 255, 255, .5);
+	opacity: .5;
+	transition: .3s;
+}
+.grey_btn:hover{
+	opacity: 1;
+}
+.hot_news_watch{
+	width: 174px;
+}
+.hot_news_watch_icon{
+	margin-right: 12px;
+}
+.hot_news_more{
+	width: 112px;
+	margin-left: 18px;
+}

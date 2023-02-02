@@ -1,0 +1,14 @@
+.balance_icon{
+  font-family: 'MontserratAlternates-BoldItalic';
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+	background-image: url(../../../../_assets/imgs/icons/header/h_rapid-coins.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 24px;
+  width: 33px;
+  padding-left: 13px;
+}

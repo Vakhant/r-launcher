@@ -1,0 +1,22 @@
+
+.body_wrap{
+	width: 1118px; height: 640px;
+	display: flex;
+}
+.main_bg{
+	background: url(../../_assets/imgs/bgs/news_bg.jpg) no-repeat;
+}
+.news_bg{
+	background: url(../../_assets/imgs/bgs/main_bg.jpg) no-repeat;
+}
+.monitoring_bg{
+	background: url(../../_assets/imgs/bgs/monitoring_bg.jpg) no-repeat;
+}
+.help_bg{
+	background: url(../../_assets/imgs/bgs/help_bg.jpg) no-repeat;
+}
+section.content_body{
+    width: 922px;
+    display: flex;
+    flex-direction: column;
+}

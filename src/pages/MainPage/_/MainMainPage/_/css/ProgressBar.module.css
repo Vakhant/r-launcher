@@ -1,0 +1,26 @@
+.download_progressbar{
+  height: 10px;
+  background-color: #1f2223;
+}
+.download_progressbar_progress{
+  background-color: #4775c1;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+@keyframes shineRoll {
+  from {left: -50px;}
+  to {left: calc(100% + 10px);}
+}
+.download_progressbar_shine{
+  height: 100%;
+  width: 12px;
+  background-color: #1e304c;
+  transform: skew(-45deg);
+  position: absolute;
+  top: 0; left: -50px;
+  animation: 4s infinite linear shineRoll;
+}
+.download_progressbar_shine:last-child{
+ margin-left: 25px;
+}

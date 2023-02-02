@@ -1,0 +1,12 @@
+.header{
+	height: 108px;
+	width: 894px;
+	margin: 0 auto;
+	border-bottom: 2px solid rgba(255,255,255,.14);
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	font-family: 'SFUIDisplay-Semibold';
+	color: #fff;
+	font-size: 15px;
+}

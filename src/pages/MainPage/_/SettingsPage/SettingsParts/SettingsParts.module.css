@@ -1,0 +1,112 @@
+.settings_parts_content{
+    width: 645px;
+    height: 300px;
+    margin-top: 30px;
+}
+.settings_block{
+    padding: 30px;
+    padding-right: 0;
+    width: 100%;
+    border-bottom: 2px solid rgba(255,255,255,.15);
+    display: flex;
+    flex-wrap: wrap;
+}
+.settings_block:first-child{
+    padding-top: 0;
+}
+.settings_block:last-child{
+    border-bottom: 0;
+}
+.settings_block_h{
+    color: rgba(255,255,255,.34);
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    width: 100%;
+}
+.settings_block_h img{
+    margin-left: 15px;
+}
+.settings_checkbox{
+    display: none;
+}
+.settings_row{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+}
+.settings_checkbox_label{
+    position: relative;
+    padding-left: 33px;
+    font-size: 15px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    color: #e5e7e9;
+}
+.settings_checkbox_label:last-child{margin-bottom: 0;}
+.settings_checkbox_label::before{
+    position: absolute;
+    top: 0; left: 0;
+    content: '';
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-color: transparent;
+    border: 2px solid rgba(255,255,255,.15);
+    border-radius: 3px;
+    margin-top: 2px;
+    transition: .3s;
+}
+.settings_checkbox_label::after{
+    position: absolute;
+    top: 0; left: 0;
+    content: '';
+    width: 16px;
+    height: 16px;
+    border: 2px solid #3ba055;
+    border-radius: 3px;
+    margin-top: 2px;
+    background-image: url(../../../../../_assets/imgs//icons/settings_mini-check-mark.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0;
+    transition: .1s;
+}
+.settings_checkbox_wrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+.settings_checkbox_wrap .settings_checkbox_label{
+    margin-bottom: 20px;
+    line-height: 24px;
+}
+.settings_checkbox:checked+.settings_checkbox_label::after{
+    border: 2px solid #3ba055;
+    opacity: 1;
+}
+.main_info{
+    color: #fff;
+    font-size: 15px;
+    line-height: 15px;
+}
+.main_info_comment{
+    color: #606061;
+}
+.settings_security_block .settings_block_h{
+    line-height: 13px;
+    margin-bottom: 0;
+}
+.main_info_wrap{
+    width: 260px;
+}
+.settings_checkbox_comment{
+    font-size: 14px;
+    color: #969799;
+    padding-left: 35px;
+    max-width: 500px;
+}
+.settings_checkbox_grey_txt_but_not_so_grey{
+    color: #bbbdbf;
+}

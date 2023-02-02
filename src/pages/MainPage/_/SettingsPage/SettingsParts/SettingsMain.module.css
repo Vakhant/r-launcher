@@ -1,0 +1,22 @@
+.settings_block_input{
+	font-family: "SFUIDisplay-Medium";
+    height: 34px;
+    border: 2px solid rgba(255,255,255,.25);
+    padding: 0 30px;
+    font-size: 16px;
+    background-color: transparent;
+    color: #979898;
+    outline: none;
+    border-radius: 19px;
+    width: 350px;
+    margin-right: 18px;
+}
+.settings_block_input::placeholder{
+	font-family: "SFUIDisplay-Medium";
+    font-size: 16px;
+    color: #979898;
+}
+.checkbox_list{
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,40 @@
+.help_content h2{
+    width: 752px;
+    margin-left: 30px;
+}
+.help_content{
+    display: flex;
+    flex-direction: column;
+}
+.help_wrap{
+    border-top: 2px solid rgba(255,255,255,.14);
+    height: 415px;
+    width: 812px;
+    margin-left: 40px;
+    display: flex;
+    position: relative;
+}
+.help_nav{
+    width: 190px;
+    min-width: 190px;
+    height: 100%;
+    padding: 0 30px 0 18px;
+    display: flex;
+    flex-direction: column;
+    border-right: 2px solid rgba(255,255,255,.14);
+    overflow-y: auto;
+}
+.help_nav>*{
+    margin: 17px 0;
+}
+.help_wrap_list{
+    width: 595px;
+    min-width: 595px;
+    overflow-y: auto;
+    padding-right: 5px;
+    margin-bottom: 30px;
+}
+.help_wrap_list_wrap{
+    display: flex;
+    flex-direction: column;
+}

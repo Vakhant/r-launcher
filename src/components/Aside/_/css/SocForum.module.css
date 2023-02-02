@@ -1,0 +1,18 @@
+.soc_forum{
+	width: 136px; height: 54px;
+	margin: 0 auto;
+	margin-top: 83px;
+	background: url(../../../../_assets/imgs/icons/aside/sup_for_border.svg) 100% no-repeat ;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.soc_forum a{
+	display: flex;
+	opacity: .24;
+	transition: .3s;
+}
+.soc_forum a:hover{
+	display: flex;
+	opacity: 1;
+}

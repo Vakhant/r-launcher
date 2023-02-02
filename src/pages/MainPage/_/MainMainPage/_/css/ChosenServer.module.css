@@ -1,0 +1,50 @@
+.server_wrap{
+	width: 496px;
+	border-right: 2px solid rgba(255,255,255,.14);
+	height: 424px;
+}
+.server{
+	height: 266px;
+	border-bottom: 2px solid rgba(255,255,255,.14);
+}
+.chosen_server{
+	position: relative;
+	padding-top: 57px;
+	padding-left: 128px;
+}
+.chosen_server_icon{
+	position: absolute; top: -5px; left: -5px;
+}
+.server_name{
+	font-family: 'Montserrat-BlackItalic';
+	font-size: 31px;
+	letter-spacing: .5px;
+	text-transform: uppercase;
+	color: #fff;
+	position: relative;
+}
+.server_second_name{
+	font-family: 'Montserrat-MediumItalic';
+	color: #6089cc;
+	font-size: 24px;
+	margin-top: 6px;
+}
+.star{
+	position: absolute;
+    top: -20px;
+    right: -39px;
+}
+.server_comment{
+	display: flex;
+	align-items: center;
+	height: 68px;
+	font-size: 17px;
+	margin-left: 48px;
+}
+.server_comment_ico{
+	font-family: 'The_Stamshons_Demo';
+	font-size: 32px;
+	color: #3fa55a;
+	margin-right: 15px;
+	margin-bottom: 5px;
+}

@@ -1,0 +1,36 @@
+.h_turn{
+	margin-right: 24px!important;
+}
+.h_settings, 
+.h_turn, .h_close{
+	display: flex;
+	opacity: .34;
+	transition: .3s;
+	cursor: pointer;
+}
+.h_notifications:hover, .h_settings:hover, 
+.h_turn:hover, .h_close:hover{
+	opacity: 1;
+}
+.h_settings .setting_icon{
+	transition: .2s;
+}
+.h_settings:hover .setting_icon{
+	fill: #4373E0;
+}
+.h_close .сlose_icon{
+	transition: .2s;
+}
+.h_close:hover .сlose_icon{
+	fill: #c72e2e;
+}
+button.h_turn, button.h_close{
+	background-color: transparent;
+	cursor: pointer;
+	padding: 0;
+	border: none;
+}
+.h_turn{
+	margin-top: 13px;
+	margin-right: 24px;
+}

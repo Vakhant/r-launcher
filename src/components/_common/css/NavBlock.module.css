@@ -1,0 +1,46 @@
+.nav_block{
+	margin: 0 15px;
+	margin-top: 30px;
+	font-size: 17px;
+	line-height: 1;
+	position: relative;
+	color: #555658;
+	transition: .3s;
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+}
+.nav_block:hover{
+	color: #959698;
+}
+.nav_block_outlink_ico{
+	transition: .3s;
+}
+.nav_block:hover .nav_block_outlink_ico{
+	fill: #959698;
+}
+.nav_block svg{
+	margin-left: 10px;
+}
+.nav_block:after{
+	content: '';
+	display: block;
+	position: absolute;
+	right: 0;
+	top: -2px;
+    width: 16px;
+    height: 22px;
+	opacity: 0;
+	background: url(../../../_assets/imgs/icons/nav_block_chosen_arrow.svg) no-repeat ;
+    background-size: contain;
+	transition: .3s;
+}
+a.nav_block_chosen{
+	color: #e5e7e9;
+}
+.nav_block_chosen:after{
+	opacity: .44;
+}
+.nav_block img{
+	margin: 0 15px;
+}

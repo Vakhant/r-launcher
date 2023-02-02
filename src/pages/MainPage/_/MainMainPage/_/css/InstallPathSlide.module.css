@@ -1,0 +1,72 @@
+.ipth_slider_block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 162px;
+    height: 196px;
+    background-color: rgba(255,255,255,.05);
+    border: 2px solid rgba(255,2555,255,.15);
+    cursor: pointer;
+    transition: .3s;
+    position: absolute;
+    top: 0; left: -196px;
+}
+.ipth_slider_block:hover{
+    background-color: rgba(255,255,255,.1);
+}
+.ipth_slider_disk_name{
+    line-height: 52px;
+    font-size: 16px;
+}
+.ipth_slider_disk_space{
+    font-size: 14px;
+    line-height: 52px;
+}
+.ipth_slider_txt_white{
+    color: #fff;
+}
+.ipth_slider_disk_choose{
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    padding: 11px 36px;
+    width: 100%;
+    border-top: 2px solid rgba(255,255,255,.15);
+    box-sizing: border-box;
+    align-items: center;
+    transition: .3s;
+}
+.ipth_slider_disk_choose_box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 16px;
+    height: 16px;
+    border: 2px solid rgba(255,255,255,.15);
+    border-radius: 3px;
+}
+.ipth_slider_block.ipth_slider_block_chosen{
+    border: 2px solid #4775C1;
+    background-color: #4776c11f;
+}
+.ipth_slider_block.ipth_slider_block_chosen .ipth_slider_disk_choose{
+    border-top: 2px solid #4775C1;
+}
+.ipth_slider_block.ipth_slider_block_chosen .ipth_slider_disk_choose_box{
+    border: 2px solid rgba(255,255,255,1);
+}
+.ipth_slider_block_strt~*{
+    left: calc(196px * 4);
+}
+.ipth_slider_block_strt{
+    left: 0;
+}
+.ipth_slider_block_strt+*{
+    left: 196px;
+}
+.ipth_slider_block_strt+*+*{
+    left: calc(196px * 2);
+}
+.ipth_slider_block_strt+*+*+*{
+    left: calc(196px * 3);
+}

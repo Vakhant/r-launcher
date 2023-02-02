@@ -1,0 +1,77 @@
+html,body{margin: 0; padding: 0;}
+p, h1, h2, h3, h4, h5{-webkit-margin-before: 0; -webkit-margin-after: 0; margin: 0; padding: 0;}
+
+@font-face{font-family: SFUIDisplay-Medium; src: url(./_assets/fonts/SFUIDisplay-Medium.ttf);}
+@font-face{font-family: SFUIDisplay-Semibold; src: url(./_assets/fonts/SFUIDisplay-Semibold.ttf);}
+@font-face{font-family: SFUIText-BoldItalic; src: url(./_assets/fonts/SFUIText-BoldItalic.ttf);}
+@font-face{font-family: SFUIDisplay-Regular; src: url(./_assets/fonts/SFUIDisplay-Regular.ttf);}
+@font-face{font-family: MontserratAlternates-BoldItalic; src: url(./_assets/fonts/MontserratAlternates-BoldItalic.ttf);}
+@font-face{font-family: Montserrat-BlackItalic; src: url(./_assets/fonts/Montserrat-BlackItalic.ttf);}
+@font-face{font-family: Montserrat-MediumItalic; src: url(./_assets/fonts/Montserrat-MediumItalic.ttf);}
+@font-face{font-family: The_Stamshons_Demo; src: url(./_assets/fonts/The_Stamshons_Demo.otf);}
+/* @font-face{font-family: SFUIDisplay-Regular; src: url(fonts/SFUIDisplay-Regular.ttf);} */
+
+*::selection{background-color: rgba(255,255,255,.9);}
+
+body{
+	font-family: "SFUIDisplay-Medium";
+	font-size: 13px;
+	line-height: 24px;
+    color: #979898;
+    overflow-x: hidden;
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	/* justify-content: center;
+	align-items: center; */
+	background: url(./_assets/imgs/bg.png) no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+button,input,textarea{
+	font-family: "SFUIDisplay-Medium";
+	font-size: 13px;
+	line-height: 24px;
+    color: #979898;
+}
+a{font-family: "SFUIDisplay-Medium"; text-decoration: none; color: #48444A;}
+button{font-family: "SFUIDisplay-Medium"; border: none;}
+
+
+section.promo{
+	background: url(), #325DB9;
+}
+
+button{background: transparent; padding: 0;}
+
+h2{font-family: "SFUIDisplay-Semibold"; font-size: 22px; color: #fff; padding: 30px;}
+h3{font-family: "SFUIDisplay-Semibold"; font-size: 16px; color: #e5e7e9;}
+
+footer{
+	border-top: 2px solid rgba(255,255,255,.14);
+	height: 30px;
+    width: 894px;
+    margin-left: 14px;
+	margin-top: auto;
+}
+
+*::-webkit-scrollbar {
+    width: 5px;
+    height: 0;
+    background-color: rgba(255, 255, 255, 0.12);
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #777878;
+    border-radius: 0;
+}
+
+*::-webkit-scrollbar-button:vertical:start:decrement {
+    height: 0;
+}
+
+*::-webkit-scrollbar-button:vertical:end:increment {
+    height: 0;
+}
+
+.grey_txt{color: #aeabab; margin-top: 8px; font-size: 15px; line-height: 26px;}

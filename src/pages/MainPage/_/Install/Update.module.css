@@ -1,0 +1,60 @@
+.update{
+  padding: 0 20px;
+  background-image: url(../../../../_assets/imgs/bgs/upload_bg.jpg);
+  width: 368px;
+  height: 188px;
+}
+.update_header{
+  border-bottom: 2px solid rgba(255,255,255,.15);
+  padding: 0 10px;
+  height: 54px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.update_h{
+	font-family: "SFUIDisplay-Semibold";
+  font-size: 18px;
+  line-height: 32px;
+  color: #fff;
+}
+.h_close{
+	display: flex;
+	opacity: .34;
+	transition: .3s;
+}
+.h_close:hover{
+	opacity: 1;
+}
+button.h_close{
+	background-color: transparent;
+	cursor: pointer;
+	padding: 0;
+	border: none;
+}
+.update_progress_bar_info{
+  display: flex;
+  margin: 0 20px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.update_progress_bar_img{
+  margin-right: 18px;
+}
+.update_progress_bar_info_txt{
+  display: flex;
+  flex-direction: column;
+}
+.upadte_step{
+  color: #606060;
+  font-size: 15px;
+  line-height: 28px;
+}
+.upadte_progress{
+  color: #babebe;
+  font-size: 16px;
+  line-height: 28px;
+}
+.upadte_progress_number{
+  color: #ffffff;
+}

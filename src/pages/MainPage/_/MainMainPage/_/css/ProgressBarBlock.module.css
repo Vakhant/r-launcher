@@ -1,0 +1,27 @@
+.download_block{
+  margin-right: 20px;
+}
+.download_txt{
+  margin-left: 18px;
+  padding-bottom: 13px;
+  font-size: 15px;
+}
+.download_data, .download_percent{
+  color: #fff;
+  font-size: 16px;
+}
+.download_data_X{
+  font-size: 9px;
+  padding: 0 8px;
+  margin-bottom: 5px;
+  height: 0;
+}
+.download_percent{
+  font-family: 'SFUIText-BoldItalic';
+}
+.download_data{
+  font-family: 'SFUIDisplay-Medium';
+}
+.download_progressbar_main_page{
+  width: 558px;
+}

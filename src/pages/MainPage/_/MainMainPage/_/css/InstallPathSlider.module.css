@@ -1,0 +1,33 @@
+.ipth_slider_wrap{
+  margin-top: 19px;
+  width: 832px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid rgba(255,255,255,.15);
+  padding: 0 17px;
+  padding-bottom: 30px;
+}
+.ipth_slider{
+  display: flex;
+  justify-content: space-between;
+  width: 755px;
+  height: 200px;
+  overflow: hidden;
+  position: relative;
+}
+.ipth_slider_prev{
+  transform: scale(-1,1);
+}
+.ipth_slider_nav{
+  opacity: .34;
+  transition: .3s;
+  cursor: pointer;
+}
+.ipth_slider_nav:hover{
+  opacity: 1;
+}
+.ipth_slider_prev.ipth_slider_prev_dsbd:hover,
+.ipth_slider_next.ipth_slider_next_dsbd:hover{
+  opacity: .34;
+}

@@ -1,0 +1,157 @@
+.server_wrap{
+	width: 496px;
+	border-right: 2px solid rgba(255,255,255,.14);
+	height: 424px;
+}
+.server{
+	height: 266px;
+	border-bottom: 2px solid rgba(255,255,255,.14);
+}
+.chosen_server{
+	position: relative;
+	padding-top: 57px;
+	padding-left: 128px;
+}
+.chosen_server_icon{
+	position: absolute; top: -5px; left: -5px;
+}
+.server_name{
+	font-family: 'Montserrat-BlackItalic';
+	font-size: 31px;
+	letter-spacing: .5px;
+	text-transform: uppercase;
+	color: #fff;
+	position: relative;
+}
+.server_second_name{
+	font-family: 'Montserrat-MediumItalic';
+	color: #6089cc;
+	font-size: 24px;
+	margin-top: 6px;
+}
+.star{
+	position: absolute;
+	top: -23px; right: -38px;	
+}
+.server_comment{
+	display: flex;
+	align-items: center;
+	height: 68px;
+	font-size: 17px;
+	margin-left: 48px;
+}
+.server_comment_ico{
+	font-family: 'The_Stamshons_Demo';
+	font-size: 32px;
+	color: #3fa55a;
+	margin-right: 15px;
+	margin-bottom: 5px;
+}
+.server_nav{
+	margin-top: 5px;
+	margin-left: 46px;
+	display: flex;
+	align-items: center;
+}
+.btn_play_wrap{
+	border-radius: 7px;
+	background: linear-gradient(90deg,#2e7440, transparent);
+	padding: 3px;
+	cursor: pointer;
+	margin-right: 14px;
+}
+.button_play{
+	border-radius: 5px;
+	padding: 7px 28px 7px 26px;
+	background: linear-gradient(90deg,#39a656, #2f6e3f);
+	display: flex;
+	align-items: center;
+	color: #fff;
+}
+.button_play_icon{
+	margin-right: 12px;
+}
+.button_play_txt{
+	font-size: 19px;
+	font-family: 'SFUIDisplay-Semibold';
+}
+.select{
+	position: relative;
+}
+.select:before{
+	content:'';
+	display: block;
+	position: absolute; top: 0; right: 21px;
+	width: 21px; height: 100%;
+	background-image: url('../../../../../../_assets/imgs/icons/main_page/select_function.svg');
+	background-repeat: no-repeat;
+	background-position: center;
+	opacity: .44;
+}
+.select_input{
+	font-family: 'SFUIDisplay-Semibold';
+	background-color: inherit;
+	border: 2px solid rgba(255,255,255,.24);
+	color: rgba(255,255,255,.44);
+	padding: 7px 19px;
+	font-size: 16px;
+	line-height: 20px;
+	border-radius: 7px;
+	width: 156px;
+	outline: none;
+}
+.server_info{
+	display: flex;
+	flex-wrap: wrap;
+	padding-left: 20px;
+}
+
+.server_wrap{
+	width: 496px;
+	border-right: 2px solid rgba(255,255,255,.14);
+	height: 424px;
+}
+.server{
+	height: 266px;
+	border-bottom: 2px solid rgba(255,255,255,.14);
+}
+.chosen_server{
+	position: relative;
+	padding-top: 57px;
+	padding-left: 128px;
+}
+.chosen_server_icon{
+	position: absolute; top: -5px; left: -5px;
+}
+.server_name{
+	font-family: 'Montserrat-BlackItalic';
+	font-size: 31px;
+	letter-spacing: .5px;
+	text-transform: uppercase;
+	color: #fff;
+	position: relative;
+}
+.server_second_name{
+	font-family: 'Montserrat-MediumItalic';
+	color: #6089cc;
+	font-size: 24px;
+	margin-top: 6px;
+}
+.star{
+	position: absolute;
+	top: -23px; right: -38px;	
+}
+.server_comment{
+	display: flex;
+	align-items: center;
+	height: 68px;
+	font-size: 17px;
+	margin-left: 48px;
+}
+.server_comment_ico{
+	font-family: 'The_Stamshons_Demo';
+	font-size: 32px;
+	color: #3fa55a;
+	margin-right: 15px;
+	margin-bottom: 5px;
+}

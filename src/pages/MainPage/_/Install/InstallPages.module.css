@@ -1,0 +1,155 @@
+.install{
+  width: 870px;
+  height: 574px;
+  display: flex;
+  flex-direction: column;
+}
+.welcome_bg{background-image: url(../../../../_assets/imgs/bgs/start-installation_bg.jpg);}
+.install_path_bg,
+.install_app_bg{background-image: url(../../../../_assets/imgs/bgs/middle_installation_bg.jpg);}
+.install_end{background-image: url(../../../../_assets/imgs/bgs/finish_installation_bg.jpg);}
+.install_header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 25px;
+  margin: 0 15px;
+  border-bottom: 2px solid rgba(255,255,255,.15);
+}
+.install_content{
+  padding: 30px 25px;
+  margin: 0 15px;
+}
+.install_welcome_app_name{
+  color: #606060;
+  font-size: 17px;
+  margin-bottom: 5px;
+}
+.install_h{
+  font-size: 22px; color: #fff;
+  line-height: 32px;
+  margin-bottom: 20px;
+}
+.install_txt{
+  font-size: 16px;
+  color: #bbbdbf;
+  line-height: 28px;
+  margin: 16px 0;
+}
+.install_txt_light{
+  font-size: 17px;
+  color: #fff;
+}
+.install_footer{
+  padding: 30px 25px;
+  margin: 0 15px;
+  border-top: 2px solid rgba(255,255,255,.15);
+  display: flex;
+  justify-content: space-between;
+  margin-top: auto;
+  align-items: center;
+}
+.install_footer_link{
+  color: #5c8fe3;
+  font-size: 17px;
+  margin-right: 30px;
+}
+.btn_next{
+  width: 140px;
+}
+.btn_next_end{
+  margin-left: auto;
+  width: 108px;
+}
+.btn_cancel{
+  width: 120px;
+  margin-left: auto;
+  margin-right: 18px;
+}
+.ipth_input{
+  height: 40px;
+  border: 2px solid rgba(255, 255, 255, .25);
+  background-color: transparent;
+  color: #fff;
+  border-radius: 22px;
+  width: 680px;
+  padding: 0 30px;
+  font-size: 16px;
+}
+.ipth_input_wrap{
+  display: flex;
+  justify-content: space-between;
+}
+.ipth_input_clear{
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+  color: #fff;
+  border-bottom: 1px solid rgba(255,255,255,.65);
+  margin-left: 35px;
+  margin-top: 15px;
+  margin-bottom: 40px;
+}
+.form_row{
+  width: 100%;
+}
+.input_checkbox{
+  display: none;
+}
+.input_checkbox+label{
+  display: block;
+  font-size: 16px;
+  line-height: 28px;
+  position: relative;
+  padding-left: 45px;
+  cursor: pointer;
+  color: #bbbdbf;
+  font-size: 16px;
+}
+.input_checkbox+label:before{
+  position: absolute;
+  top: 2px; left: 0;
+  content:'';
+  display: block;
+  background-color: #e1e2e3;
+  border-radius: 3px;
+  width: 25px;
+  height: 25px;
+}
+.input_checkbox:checked+label:before{
+  background-image: url(../../../../../public/imgs/icons/auth_page/check-mark.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.install_app_progressbar{
+  width: 630px;
+}
+.install_app_footer{
+  margin-top: auto;
+  padding: 30px 40px;
+  padding-top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.install_app_progressbar_wrap{
+  display: flex;
+  flex-direction: column;
+}
+.install_app_progressbar_comment{
+  font-size: 17px;
+  color: #979898;
+  margin-bottom: 20px;
+}
+.install_app_progressbar_btn{
+  width: 120px;
+  margin-left: auto;
+}
+.install_app_progressbar_comment_light{
+  color: #fff;
+  font-family: 'SFUIText-BoldItalic';
+  font-size: 18px;
+}
+.install_end_form{
+  margin-top: 40px;
+}

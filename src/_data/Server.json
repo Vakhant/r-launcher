@@ -1,0 +1,47 @@
+{
+    "serversList": [
+        {"id": 1, "key": "NF",
+        "ico": "/imgs/icons/main_page/server_NF.svg",
+        "monitoring_ico": "/imgs/icons/monitoring/server_NF.svg",
+        "name":"Night Fury / 1",
+        "nameColor":"#4775c1",
+        "coloredComment": "", "comment": "На пополнение / Магазин (Осталось 2 дня)",
+        "vip": true,
+        "chosen": false,
+        "infoList":[
+            {"id": 1, "img":  "/imgs/icons/main_page/info_time.svg", "data": "127 ч. 25 м.", "name": "Вы играли"},
+            {"id": 2, "img":  "/imgs/icons/main_page/info_last-play.svg", "data": "Сегодня", "name": "Последний. запуск"},
+            {"id": 3, "img":  "/imgs/icons/main_page/info_online.svg", "data": "300 / 300", "name": "Игроков онлайн"},
+            {"id": 4, "img":  "/imgs/icons/main_page/info_ping.svg", "data": "64 ms.", "name": "Серверный пинг"}
+        ]},
+        {"id": 2, "key": "FM",
+        "ico": "/imgs/icons/main_page/server_FM.svg",
+        "monitoring_ico": "/imgs/icons/monitoring/server_FM.svg",
+        "name":"Fallen Mercury / 2",
+        "nameColor":"#c5b04f",
+        "coloredComment": "x 2", "comment": "На пополнение / Магазин (Осталось 41 день)",
+        "vip": true,
+        "chosen": true,
+        "infoList":[
+            {"id": 1, "img":  "/imgs/icons/main_page/info_time.svg", "data": "7 ч. 2225 м.", "name": "Вы"},
+            {"id": 2, "img":  "/imgs/icons/main_page/info_last-play.svg", "data": "ня", "name": "Последний. попуск"},
+            {"id": 3, "img":  "/imgs/icons/main_page/info_online.svg", "data": "200 / 300", "name": "Играков олын"},
+            {"id": 4, "img":  "/imgs/icons/main_page/info_ping.svg", "data": "24 ms.", "name": "Северный пиг"}
+        ]},
+        {"id": 3, "key": "VH",
+        "ico": "/imgs/icons/main_page/server_VH.svg",
+        "monitoring_ico": "/imgs/icons/monitoring/server_VH.svg",
+        "name":"Void Hear / 3",
+        "nameColor":"",
+        "coloredComment": "", "comment": "На пополнение / Магазин (Осталось 15 день)",
+        "vip": false,
+        "chosen": false,
+        "infoList":[
+            {"id": 1, "img":  "/imgs/icons/main_page/info_time.svg", "data": "17 ч. 2 м.", "name": "Вы грали"},
+            {"id": 2, "img":  "/imgs/icons/main_page/info_last-play.svg", "data": "Сеодня", "name": "Поледний. запуск"},
+            {"id": 3, "img":  "/imgs/icons/main_page/info_online.svg", "data": "30 / 300", "name": "Игоков онлайн"},
+            {"id": 4, "img":  "/imgs/icons/main_page/info_ping.svg", "data": "6 s.", "name": "Скверный пинг"}
+        ]}
+      ]
+}
+

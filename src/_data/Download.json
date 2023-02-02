@@ -1,0 +1,12 @@
+{
+    "downloadAR": [
+        {"id": 1, "key":"download", "progressBarTxt":"Загрузка игровых файлов ", "alrdyDwnLdd":2.1, "GBs":"7 гб.", "timeLeft":"~14 м.", "dwnldSpeen":"7.4 мб/c.", "progress":50},
+        {"id": 2, "key":"check", "progressBarTxt":"Проверка целостности файлов игры ", "progress":25, "alrdyChecked":2.1, "GBs":"7 гб."},
+        {"id": 3, "key":"update", "progressBarTxt":"Загрузка обновления ", "alrdyDwnLdd":290, "GBs":"7 гб.", "timeLeft":"~14 м.", "dwnldSpeen":"7.4 мб/c.", "progress":100},
+        {"id": 4, "key":"all-good", "txt":"Все актуальные обновления загружены, игровые файлы проверены — приятной игры!", "txtIcn":"/imgs/icons/main_page/download_smile-cool.svg"},
+        {"id": 5, "key":"disconnect", "txt":"Внимание! У вас разрыв соединения с интернетом, связь с сервером потеряна!", "txtIcn":"/imgs/icons/main_page/download_smile-error.svg"},
+        {"id": 6, "key":"update-alert", "txt":"Доступно новое обновление! Перед началом игры необходимо загрузить."},
+        {"id": 7, "key":"install-alert", "txt":"Перед началом игры необходимо загрузить игровые файлы."}
+    ]
+}
+

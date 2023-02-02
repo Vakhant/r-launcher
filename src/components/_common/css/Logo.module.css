@@ -1,0 +1,21 @@
+.logo{
+	padding: 30px 16px;
+	border-bottom: 2px solid rgba(255,255,255,.14);
+	display: flex;
+	align-items: flex-end;
+}
+.logo .app_version{
+	margin-left: 20px;
+	opacity: .24;
+}
+.install_logo{
+	padding: 0;
+	border-bottom: 0;
+}
+.logo_auth{
+	padding: 0px;
+	border-bottom: 0;
+}
+.logo_auth .app_version{
+	opacity: 1;
+}

@@ -1,0 +1,77 @@
+.footer{
+  height: 79px;
+  display: flex;
+  padding-top: 26px;
+  padding-right: 26px;
+  margin-left: 0;
+  padding-left: 26px;
+  width: 868px;
+}
+.btns_imgs{
+  margin-left: 18px;
+  opacity: .5;
+}
+.download_btn{
+  height: 38px;
+  margin-left: 20px;
+  margin-top: 8px;
+}
+.download_btn:last-child{
+  margin-left: 18px;
+}
+.download_btn:last-child .btns_imgs{
+  margin-left: 13px;
+}
+.dnld_stt{
+  height: 50px;
+  width: 100%;
+  display: flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+}
+.all_good{
+  background: linear-gradient(90deg, rgba(255,255,255,.2), transparent 10%, transparent 90%, rgba(255,255,255,.2));
+}
+.disconnect{
+  background: linear-gradient(90deg, #6c2127, transparent 10%, transparent 90%, #6c2127);
+  color: #d74854;
+}
+.install_alert{
+  color: #6c9ae9;
+  position: relative;
+}
+.install_alert:after,
+.install_alert:before{
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  height: 16px;
+  width: 12px;
+  background-image: url(../../../../../../_assets/imgs/icons/main_page/download_footer_install_arrows.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.install_alert:before{
+  left: 0;
+  transform: translate(0, -50%);
+}
+.install_alert:after{
+  right: 0;
+  transform: translate(0, -50%) rotate(180deg);
+}
+.install_btn{
+  background:  linear-gradient(90deg, #4774c0, #3f67aa);
+  border: 0;
+  color: #fff;
+  opacity: 1;
+  margin-left: 30px;
+}
+.install_btn img{
+  opacity: 1;
+}
+.dnld_stt_icn{
+  margin-left: 12px;
+}

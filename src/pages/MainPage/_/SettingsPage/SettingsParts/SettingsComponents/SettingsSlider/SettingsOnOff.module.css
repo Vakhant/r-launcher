@@ -1,0 +1,42 @@
+.onOff_block{
+  display: flex;
+  align-items: center;
+  width: 225px;
+  margin-right: 60px;
+  cursor: pointer;
+}
+.onOff_block:nth-child(2n+1){
+  margin-right: 0;
+}
+.onOff_name{
+  color: #e5e7e9;
+  font-size: 15px;
+  width: 180px;
+  text-align: left;
+}
+.onOff_checkbox{
+  height: 16px;
+  width: 41px;
+  border: 2px solid rgba(255,255,255,.35);
+  border-radius: 3px;
+  position: relative;
+}
+.onOff_checkbox_lever{
+  position: absolute;
+  width: 18px;
+  height: 10px;
+  background: rgba(255,255,255,.35);
+  top: 3px;
+  left: 3px;
+}
+.onOff_checkbox,
+.onOff_checkbox_lever{
+  transition: .2s;
+}
+.onOff_checkbox_on{
+  border: 2px solid #3ba055;
+}
+.onOff_checkbox_on .onOff_checkbox_lever{
+  left: 20px;
+  background: #3ba055;
+}

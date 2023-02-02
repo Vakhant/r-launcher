@@ -1,0 +1,27 @@
+.notifications_block_ico_wrap{
+  width: 40px;
+}
+.notifications_block{
+  margin-bottom: 20px;
+  overflow: hidden;
+  transition: .5s;
+  opacity: 1;
+}
+.notifications_block_header{
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+  color: #fff;
+}
+.notifications_block_hidden{
+  height: 0!important;
+  transition: .5s;
+  margin: 0;
+  transition: opacity .3s, height .3s .5s, margin .6s;
+  opacity: 0;
+}
+.notifications_remove{
+  padding: 0;
+  cursor: pointer;
+  margin-left: 10px;
+}

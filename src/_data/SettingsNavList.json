@@ -1,0 +1,8 @@
+{
+    "settingsNavList": [
+        {"id": 1, "name":"Основное", "to":"settings=main"},
+        {"id": 2, "name":"Безопаность", "to":"settings=security"},
+        {"id": 3, "name":"Игра", "to":"settings=game"},
+        {"id": 4, "name":"Предзагрузка", "to":"settings=predownload"}
+    ]
+}
