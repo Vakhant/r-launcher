@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.2.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Logo_x27_s__x2014__NF_x2C__FM_x2C__VH"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 200 200"
+	 style="enable-background:new 0 0 200 200;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#0B0A09;}
+	.st1{fill:url(#SVGID_1_);}
+	.st2{fill:#C5B04F;}
+</style>
+<g id="Logo_FM">
+	<g id="Обводка_2_X_Свечение">
+		
+			<image style="overflow:visible;opacity:0.9;" width="153" height="123" xlink:href="CD9E9CA5.png"  transform="matrix(1 0 0 1 24 39)">
+		</image>
+		<g>
+			<path class="st0" d="M96.7,79l-2.5,7h-20l2.5,4h12l-2.5,7h-12l-4.4,12l-4.5-7l8.4-23H96.7z M103.7,79l-8.4,23l4.5,7l6.9-19
+				l-2.5-4h8l-3.3,9l4.5,7l5.8-16h4l-5.8,16l4.5,7l6.9-19l-1.5-4h3l2.5-7H103.7z"/>
+			<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="100.5998" y1="131.493" x2="100.5998" y2="69">
+				<stop  offset="0" style="stop-color:#12110B"/>
+				<stop  offset="1" style="stop-color:#514822"/>
+			</linearGradient>
+			<path class="st1" d="M132.7,79l-2.5,7h-3l1.5,4l-6.9,19l-4.5-7l5.8-16h-4l-5.8,16l-4.5-7l3.3-9h-8l2.5,4l-6.9,19l-4.5-7l8.4-23
+				H132.7 M96.7,79l-2.5,7h-20l2.5,4h12l-2.5,7h-12l-4.4,12l-4.5-7l8.4-23H96.7 M147,69h-14.3H111H96.7h-23h-7l-2.4,6.6l-8.4,23
+				l-1.7,4.6l2.6,4.2l4.5,7l10.9,17.1l6.9-19.1l2-5.4h5h0.5l0.2,0.4l4.5,7l10.9,17.1l6.6-18l7,11l1.5-4l7,11l6.9-19.1l6.9-19
+				l1.3-3.5l0.2-0.5l2.5-7L147,69L147,69z"/>
+		</g>
+	</g>
+	<g id="Основа_X_Обводка_1">
+		<g>
+			<polygon class="st2" points="62.5,102.3 71.9,76.5 100.3,76.5 95.9,88.5 91.9,88.5 87.9,99.5 75.9,99.5 70.4,114.6 			"/>
+			<path class="st0" d="M96.7,79l-2.5,7h-20l2.5,4h12l-2.5,7h-12l-4.4,12l-4.5-7l8.4-23H96.7 M103.8,74h-7.1h-23h-3.5L69,77.3
+				l-8.4,23l-0.8,2.3l1.3,2.1l4.5,7l5.4,8.6l3.5-9.5l3.2-8.7h8.5h3.5l1.2-3.3l2.5-7l0.3-0.7h0.5h3.5l1.2-3.3l2.5-7L103.8,74
+				L103.8,74z"/>
+		</g>
+		<g>
+			<polygon class="st2" points="115.4,103.6 113.9,107.6 106.9,96.6 100.4,114.6 92.5,102.3 101.9,76.5 136.3,76.5 131.9,88.5 
+				130.8,88.5 131.4,90 122.4,114.6 			"/>
+			<path class="st0" d="M132.7,79l-2.5,7h-3l1.5,4l-6.9,19l-4.5-7l5.8-16h-4l-5.8,16l-4.5-7l3.3-9h-8l2.5,4l-6.9,19l-4.5-7l8.4-23
+				H132.7 M139.8,74h-7.1h-29h-3.5L99,77.3l-8.4,23l-0.8,2.3l1.3,2.1l4.5,7l5.4,8.6l3.5-9.5l3.1-8.5l1.5,2.4l5.4,8.6l1.5-4l1.5,2.4
+				l5.4,8.6l3.5-9.5l6.9-19l0.6-1.8l0,0l0.8-2.2l2.5-7L139.8,74L139.8,74z"/>
+		</g>
+		<polygon id="Исправление" class="st0" points="77.3,102.6 77.5,101.8 89.5,101.8 93.5,90.9 94.1,90.9 89.9,102.6 		"/>
+	</g>
+</g>
+</svg>
