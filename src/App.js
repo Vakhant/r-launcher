@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter, Navigate, redirect, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, HashRouter, Navigate, redirect, Route, Routes } from 'react-router-dom';
 import AuthPage from './pages/AuthPage/AuthPage';
 import MainPage from './pages/MainPage/MainPage';
 import MonitoringPage from './pages/MainPage/_/MonitoringPage/MonitoringPage';
@@ -15,8 +15,11 @@ import FirstRunPage from './pages/MainPage/_/FirstRunPage';
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
           <Routes>
+              <Route path="/" element={<MainPage pageComponent={<MainMainPage/>}/>}/>
+              <Route path="*" element={<MainPage pageComponent={<MainMainPage/>}/>}/>
+              <Route index element={<MainPage pageComponent={<MainMainPage/>}/>}/>
               <Route path="main/prim/first_run_page" element={<MainPage pageComponent={<FirstRunPage/>}/>}/>
               <Route path="main/prim/:settings" element={<MainPage pageComponent={<MainMainPage/>}/>}/>
               <Route path="main/prim" element={<MainPage pageComponent={<MainMainPage/>}/>}/>
@@ -32,7 +35,7 @@ function App() {
             <Route path="/install/install_end" element={<InstallEnd/>}/>
             <Route path="/install/update" element={<Update/>}/>
           </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
