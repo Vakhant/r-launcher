@@ -10,13 +10,13 @@ const SettingsSlider = ({name, settings}) => {
         <div className={css.sttngs_slider_name}>{name}</div>
         <div className={css.sttngs_slider}>
           <button onClick={()=>{setfirst(choosen===1?settings.length:choosen-1)}} className={css.sttngs_slider_nav+' '+css.sttngs_slider_prev}>
-            <img src={'/imgs/icons/settings_left-right.svg'} alt="" />
+            <img src={process.env.PUBLIC_URL+'/imgs/icons/settings_left-right.svg'} alt="" />
           </button>
           <div className={css.sttngs_slider_list}>
             {settings.map(s => <div key={s.id} className={css.sttngs_slide+` ${choosen===s.id?css.sttngs_slide_choosen:''}`}>{s.name}</div>)}
           </div>
           <button onClick={()=>{setfirst(choosen===settings.length?1:choosen+1)}} className={css.sttngs_slider_nav+' '+css.sttngs_slider_next}>
-            <img src={'/imgs/icons/settings_left-right.svg'} alt="" />
+            <img src={process.env.PUBLIC_URL+'/imgs/icons/settings_left-right.svg'} alt="" />
           </button>
         </div>
         <div className={css.sttngs_slider_recomendation}>

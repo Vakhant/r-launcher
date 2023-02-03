@@ -23,9 +23,9 @@ const MonitoringPage = () => {
     <>
       <section className={css.monitoring_content}>
       <div className={css.all_servers_info}><div className={css.all_servers_info_txt}>Общий онлайн на всех 3 серверах</div>
-        <div className={css.all_servers_info_users_number}><img src="/imgs/icons/monitoring/g_online.svg" alt="" /> 900 / 900</div></div>
+        <div className={css.all_servers_info_users_number}><img src={process.env.PUBLIC_URL+"/imgs/icons/monitoring/g_online.svg"} alt="" /> 900 / 900</div></div>
         <div ref={serverList} className={css.servers_list + ` ${css.server_list_scroll_hidden}`}>
-          {serversBlocksList.map(sb => <MonitoringServerBlock infoCall={setPopupAct} imgSrc={sb.monitoring_ico} serverName={sb.name} serverColloredComment={sb.coloredComment} star={sb.vip}
+          {serversBlocksList.map(sb => <MonitoringServerBlock infoCall={setPopupAct} imgSrc={process.env.PUBLIC_URL+sb.monitoring_ico} serverName={sb.name} serverColloredComment={sb.coloredComment} star={sb.vip}
            nameColor={sb.nameColor} chosen={sb.chosen} key={sb.id} id={sb.id}/>)}
         </div>
         <PopupMain active={popupAct} activate={setPopupAct} header={'Информация по акции'} type={'info'} content={<>X2 при пополнении<br /> <div className='grey_txt'>Специально для новых игроков, действует акция

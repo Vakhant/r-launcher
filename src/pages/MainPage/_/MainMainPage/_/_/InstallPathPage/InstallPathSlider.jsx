@@ -13,11 +13,11 @@ const InstallPathSlider = () => {
         )
     return (
         <div className={css.ipth_slider_wrap}>
-            <button onClick={()=>setStrtSld(strtSld===1?strtSld:strtSld-1)} className={css.ipth_slider_nav+' '+css.ipth_slider_prev+` ${strtSld===1?css.ipth_slider_prev_dsbd:''}`}><img src={'/imgs/icons/main_page/disk_b-left-right.svg'} alt="" /></button>
+            <button onClick={()=>setStrtSld(strtSld===1?strtSld:strtSld-1)} className={css.ipth_slider_nav+' '+css.ipth_slider_prev+` ${strtSld===1?css.ipth_slider_prev_dsbd:''}`}><img src={process.env.PUBLIC_URL+'/imgs/icons/main_page/disk_b-left-right.svg'} alt="" /></button>
                 <div className={css.ipth_slider}>
                     {diskListMap}
                 </div>
-            <button onClick={()=>setStrtSld(strtSld+3===diskList.length?strtSld:strtSld+1)} className={css.ipth_slider_nav+' '+css.ipth_slider_next+` ${strtSld+3===diskList.length?css.ipth_slider_next_dsbd:''}`}><img src={'/imgs/icons/main_page/disk_b-left-right.svg'} alt="" /></button>
+            <button onClick={()=>setStrtSld(strtSld+3===diskList.length?strtSld:strtSld+1)} className={css.ipth_slider_nav+' '+css.ipth_slider_next+` ${strtSld+3===diskList.length?css.ipth_slider_next_dsbd:''}`}><img src={process.env.PUBLIC_URL+'/imgs/icons/main_page/disk_b-left-right.svg'} alt="" /></button>
         </div>
     )
 }

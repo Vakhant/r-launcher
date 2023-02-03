@@ -5,7 +5,7 @@ const LaunherWindowNav = () => {
   return (
     <>
 		<button className={css.h_turn} href="#">
-			<img width="18" height="3" src={"/imgs/icons/header/h_turn.svg"} alt=""/>
+			<img width="18" height="3" src={process.env.PUBLIC_URL+"/imgs/icons/header/h_turn.svg"} alt=""/>
 		</button>
 		<button className={css.h_close} href="#">
 			<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">

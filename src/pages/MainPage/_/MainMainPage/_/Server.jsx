@@ -16,7 +16,7 @@ const Server = () => {
     <section className={css.server_wrap}>
       <section className={css.server}>
           <ChosenServer
-              imgSrc={chosenServerData.ico?chosenServerData.ico:''}
+              imgSrc={chosenServerData.ico?process.env.PUBLIC_URL+chosenServerData.ico:''}
               serverName={chosenServerData.name}
               serverColloredComment={chosenServerData.coloredComment}
               serverComment={chosenServerData.comment}
@@ -25,7 +25,7 @@ const Server = () => {
           <ServerNav chosenServer={chosenServer} setServer={setServer} serversList={serversList}/>
       </section>
       <section className={css.server_info}>
-        {serverInfoList.map(nb => <ServerInfoBlock img={nb.img} data={nb.data} name={nb.name} key={nb.id}/>)}
+        {serverInfoList.map(nb => <ServerInfoBlock img={process.env.PUBLIC_URL+nb.img} data={nb.data} name={nb.name} key={nb.id}/>)}
       </section>
     </section>
   )

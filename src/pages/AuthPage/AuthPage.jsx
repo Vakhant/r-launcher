@@ -52,7 +52,7 @@ const AuthPage = () => {
               {auth_page === 'email_change2' && 'Изменение почты аккаунта / Шаг 2'}
             </h1>
           </div>
-          <div className={css.headphones_btn}><img src={'/imgs/icons/auth_page/mini-frame.svg'} alt="" /><div className={css.headphones_btn_wrap}><img src={'/imgs/icons/aside/support.svg'} alt="" /></div></div>
+          <div className={css.headphones_btn}><img src={process.env.PUBLIC_URL+'/imgs/icons/auth_page/mini-frame.svg'} alt="" /><div className={css.headphones_btn_wrap}><img src={process.env.PUBLIC_URL+'/imgs/icons/aside/support.svg'} alt="" /></div></div>
         </header>
         {auth_page === 'acc_reg' && <AccountRegistration/>}
         {auth_page === 'reg_confirm' && <RegistrationConfirm/>}

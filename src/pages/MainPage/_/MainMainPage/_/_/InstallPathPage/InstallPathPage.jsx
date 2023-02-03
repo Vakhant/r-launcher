@@ -8,7 +8,7 @@ const InstallPathPage = ({ipthPage, setIpthPage, diskSpaceNeeded='7.2 гб'}) =>
     <div className={css.ipth_popup + ` ${ipthPage ? css.ipth_page_act : ''}`}>
         <div className={css.ipth_header}>
             <h2 className={css.ipth_h}>Выбор пути для установки игры</h2>
-            <button className={css.ipth_esc} onClick={()=>setIpthPage(!ipthPage)}><img src={'/imgs/icons/header/h_close.svg'} alt="" /></button>
+            <button className={css.ipth_esc} onClick={()=>setIpthPage(!ipthPage)}><img src={process.env.PUBLIC_URL+'/imgs/icons/header/h_close.svg'} alt="" /></button>
         </div>
         <section className={css.ipth_main_content}>
             <div className={css.ipth_main_comment}>Выберите диск, на который будет установлена игра. Или укажите путь вручную. <span className={css.ipth_main_comment_att}>Будьте внимательны!</span>

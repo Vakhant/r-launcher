@@ -11,7 +11,7 @@ const Notification = () => {
   let nAR = notifsAR.notificationsList
   return (
     <button onBlur={()=>setActive(false)} className={css.notifications_wrap + ` ${active?css.notifications_popup_active:''} ${empty?css.notifications_popup_empty:''}`} href="#">
-      <img onClick={()=>setActive(!active)} className={cssElse.h_notifications + ' ' + css.notifications} width="16" height="18" src={empty?"/imgs/icons/header/h_notifications.svg":"/imgs/icons/header/h_notifications_new.svg"} alt=""/>
+      <img onClick={()=>setActive(!active)} className={cssElse.h_notifications + ' ' + css.notifications} width="16" height="18" src={empty?process.env.PUBLIC_URL+"/imgs/icons/header/h_notifications.svg":process.env.PUBLIC_URL+"/imgs/icons/header/h_notifications_new.svg"} alt=""/>
       <div className={css.notifications_popup}>
         <div className={css.notifications_list}>
           {nAR.map(n => <NotificationBlock txt={n.txt} name={n.name} checked={n.checked} key={n.id} id={n.id} />   )}

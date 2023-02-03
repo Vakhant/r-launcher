@@ -16,7 +16,7 @@ const InstallApp = () => {
         <div className={css.install_content}>
             <div className={css.install_welcome_app_name}>Rapid Motion Launcher</div>
             <h1 className={css.install_h}>Установка лаунчера</h1>
-            <img src={"/imgs/game_img_bg.jpg"} alt="" />
+            <img src={process.env.PUBLIC_URL+"/imgs/game_img_bg.jpg"} alt="" />
         </div>
         <div className={css.install_app_footer}>
             <div className={css.install_app_progressbar_wrap}>

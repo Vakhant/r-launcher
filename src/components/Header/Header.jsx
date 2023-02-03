@@ -13,7 +13,7 @@ const Header = ({setSettings, settings}) => {
     <header className={css.header}>
 		<HeaderBlock content={<Status statustxt='Платина (14 д. 20 ч.)'/>}/>
 		<HeaderBlock content={<Balance balance='1,000 RC'/>}/>
-		<HeaderBlock content={<UserInfo avatarSrc={"/imgs/icons/header/avatar.png"} nickname='airxstreets' />}/>
+		<HeaderBlock content={<UserInfo avatarSrc={process.env.PUBLIC_URL+"/imgs/icons/header/avatar.png"} nickname='airxstreets' />}/>
 		<HeaderBlock content={<>
 			<Notification notifications_list=''/>
 			<Settings settings={settings} setSettings={setSettings}/>

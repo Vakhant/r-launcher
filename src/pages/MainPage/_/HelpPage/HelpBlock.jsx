@@ -19,12 +19,12 @@ const HelpBlock = ({name, txt, link, linkTxt}) => {
     <div className={css.help_block}>
       <div className={css.help_block_header}>
         <h3>{name}</h3>
-        <button onClick={()=>setActive(!active)} className={css.help_block_btn_toggler + ` ${active?css.help_block_btn_toggle_act:''}`}><img src={'/imgs/icons/help_down_arrow.svg'} alt="" draggable={false}/></button>
+        <button onClick={()=>setActive(!active)} className={css.help_block_btn_toggler + ` ${active?css.help_block_btn_toggle_act:''}`}><img src={process.env.PUBLIC_URL+'/imgs/icons/help_down_arrow.svg'} alt="" draggable={false}/></button>
       </div>
       <div style={{'height': ` ${height?height+'px':'inherit'}`}} className={css.help_block_txt_wrap + ` ${active?'':css.help_block_txt_wrap_hidden}`}>
         <div ref={helpBlockTxt}>
         <div className={css.help_block_txt} dangerouslySetInnerHTML={{__html: txt}} />
-        {link?<a ref={helpBlockTxtLink} className={css.help_block_more_link} href={link}>{linkTxt} <img src={"/imgs/icons/hyperlink.svg"} alt="" /></a>:''}
+        {link?<a ref={helpBlockTxtLink} className={css.help_block_more_link} href={link}>{linkTxt} <img src={process.env.PUBLIC_URL+"/imgs/icons/hyperlink.svg"} alt="" /></a>:''}
         </div>
       </div>
     </div>

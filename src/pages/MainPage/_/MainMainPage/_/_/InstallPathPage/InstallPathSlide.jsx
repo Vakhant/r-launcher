@@ -11,7 +11,7 @@ const InstallPathSlide = ({strt, name, space, chosen, id}) => {
             <div className={css.ipth_slider_disk_space}>Место <span className={css.ipth_slider_txt_white}>{space}</span></div>
             <div className={css.ipth_slider_disk_choose}> 
             {chosen?'Выбран':'Выбрать'} <div className={css.ipth_slider_disk_choose_box}>
-                    {chosen?<img src={'/imgs/icons/main_page/disk_mini-check-mark.svg'} alt="" />:''}
+                    {chosen?<img src={process.env.PUBLIC_URL+'/imgs/icons/main_page/disk_mini-check-mark.svg'} alt="" />:''}
                 </div>
             </div>
         </div>

@@ -14,12 +14,12 @@ const FirstRunPage = () => {
                 В настоящее время проходит акция<br/>
                 «<span className={css.first_run_main_comment}>X2 на первое пополнение игрового счета (RC) / Осталось 2 дня</span>»</div>
                 <div className={css.first_run_server_block}>
-                    <div className={css.first_run_server_icon_wrap}><img src={'/imgs/icons/settings_page/server_FM.svg'} alt="" /></div>
+                    <div className={css.first_run_server_icon_wrap}><img src={process.env.PUBLIC_URL+'/imgs/icons/settings_page/server_FM.svg'} alt="" /></div>
                     <div className={css.first_run_server_main_info}>
                         <div className={css.first_run_server_block_name}>Fallen Mercury / 2</div>
                         <div className={css.first_run_server_users_count}>Игроков онлайн 300 / 300</div>
                     </div>
-                    <img className={css.first_run_server_star} src={'/imgs/icons/main_page/star.svg'} alt="" />
+                    <img className={css.first_run_server_star} src={process.env.PUBLIC_URL+'/imgs/icons/main_page/star.svg'} alt="" />
                     <div className={css.first_run_special}>x 2</div>
                 </div>
             </div>
