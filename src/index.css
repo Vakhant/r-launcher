@@ -4,6 +4,7 @@ p, h1, h2, h3, h4, h5{-webkit-margin-before: 0; -webkit-margin-after: 0; margin:
 @font-face{font-family: SFUIDisplay-Medium; src: url(./_assets/fonts/SFUIDisplay-Medium.ttf);}
 @font-face{font-family: SFUIDisplay-Semibold; src: url(./_assets/fonts/SFUIDisplay-Semibold.ttf);}
 @font-face{font-family: SFUIText-BoldItalic; src: url(./_assets/fonts/SFUIText-BoldItalic.ttf);}
+@font-face{font-family: SFUIDisplay-Bold; src: url(./_assets/fonts/SFUIDisplay-Bold.ttf);}
 @font-face{font-family: SFUIDisplay-Regular; src: url(./_assets/fonts/SFUIDisplay-Regular.ttf);}
 @font-face{font-family: MontserratAlternates-BoldItalic; src: url(./_assets/fonts/MontserratAlternates-BoldItalic.ttf);}
 @font-face{font-family: Montserrat-BlackItalic; src: url(./_assets/fonts/Montserrat-BlackItalic.ttf);}
@@ -34,7 +35,7 @@ button,input,textarea{
 	line-height: 24px;
     color: #979898;
 }
-a{font-family: "SFUIDisplay-Medium"; text-decoration: none; color: #48444A;}
+a{font-family: "SFUIDisplay-Semibold"; text-decoration: none; color: #48444A;}
 button{font-family: "SFUIDisplay-Medium"; border: none;}
 
 

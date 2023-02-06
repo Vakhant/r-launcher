@@ -1,4 +1,5 @@
 .nav_block{
+	font-family: "SFUIDisplay-SemiBold";
 	margin: 0 15px;
 	margin-top: 30px;
 	font-size: 17px;
@@ -20,7 +21,7 @@
 	fill: #959698;
 }
 .nav_block svg{
-	margin-left: 10px;
+	margin-left: 13px;
 }
 .nav_block:after{
 	content: '';

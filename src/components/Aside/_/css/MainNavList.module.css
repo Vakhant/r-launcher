@@ -1,4 +1,5 @@
 .main_type_nav{
 	display: flex;
 	flex-direction: column;
+	margin-top: 1px;
 }

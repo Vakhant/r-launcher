@@ -70,3 +70,7 @@
 .ipth_slider_block_strt+*+*+*{
     left: calc(196px * 3);
 }
+.ipth_slider_disk_ico{
+    min-width: 42px;
+    min-height: 46px;
+}

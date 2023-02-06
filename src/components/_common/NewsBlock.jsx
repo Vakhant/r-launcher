@@ -12,9 +12,10 @@ const NewsBlock = ({img, name, date, txt, page, link}) => {
 				<div className={css.news_list_block_date}>{date}</div>
 				<div className={css.news_list_block_txt + ` ${link?css.news_list_block_txt_hide:''}`}>{txt}</div>
 				{link?<a href={link} className={css.news_list_block_link}>ПОДРОБНЕЕ 
-				<svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-					<path d="M5 0V2H2V0H5ZM0 10H2L5 7V3L0 8V10ZM5 0V2H6L5 3V7L8 4V8H10V0H5Z" fill="#4775C1"/>
-				</svg></a>:''}
+				<svg width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path d="M4 0V2H1V0H4ZM0 9H1.5L4 6.5V3.5L0 7.5V9ZM4 0V2H5.5L4 3.5V6.5L7 3.5V8H9V0H4Z" fill="#4775C1"/>
+				</svg>
+				</a>:''}
 			</div>
 		</div>
 	)
