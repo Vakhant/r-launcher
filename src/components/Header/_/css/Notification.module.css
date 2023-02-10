@@ -42,8 +42,6 @@
   transition: .3s;
 }
 .notifications_list{
-  display: flex;
-  flex-direction: column;
   height: 126px;
   overflow-x: auto;
   margin-bottom: 12px;

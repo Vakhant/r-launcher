@@ -3,9 +3,8 @@
 }
 .notifications_block{
   transition: .5s;
-  height: 126px;
-  min-height: 126px;
   opacity: 1;
+  overflow: hidden;
 }
 .notifications_block_header{
   display: flex;
