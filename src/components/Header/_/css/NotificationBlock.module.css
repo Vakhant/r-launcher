@@ -4,7 +4,8 @@
 .notifications_block{
   transition: .5s;
   opacity: 1;
-  overflow: hidden;
+  margin-bottom: 20px;
+  scroll-snap-align: start;
 }
 .notifications_block_header{
   display: flex;

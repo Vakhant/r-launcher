@@ -47,7 +47,8 @@
   margin-bottom: 12px;
   padding-left: 8px;
   padding-right: 13px;
-  transition: .5s
+  transition: .5s;
+  scroll-snap-type: y mandatory;
 }
 
 .notifications_list::-webkit-scrollbar {
