@@ -2,9 +2,9 @@
   width: 40px;
 }
 .notifications_block{
-  margin-bottom: 20px;
-  overflow: hidden;
   transition: .5s;
+  height: 126px;
+  min-height: 126px;
   opacity: 1;
 }
 .notifications_block_header{

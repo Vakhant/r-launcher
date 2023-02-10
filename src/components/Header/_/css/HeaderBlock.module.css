@@ -8,6 +8,13 @@
 .header_block>*:first-child{
 	margin-right: 18px;
 }
+.header_block:first-child>*:first-child{
+	margin-right: 17px;
+}
+.header_block:nth-child(1)>*:first-child,
+.header_block:nth-child(2)>*:first-child{
+	margin-top: 1px;
+}
 .header_block:last-child{
 	border-right: 0;
 	padding-right: 16px;

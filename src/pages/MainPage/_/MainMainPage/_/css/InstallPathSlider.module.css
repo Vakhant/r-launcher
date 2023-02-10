@@ -1,5 +1,5 @@
 .ipth_slider_wrap{
-  margin-top: 19px;
+  margin-top: 21px;
   width: 832px;
   display: flex;
   justify-content: space-between;
@@ -22,6 +22,7 @@
 .ipth_slider_nav{
   opacity: .34;
   transition: .3s;
+  display: flex;
   cursor: pointer;
 }
 .ipth_slider_nav:hover{

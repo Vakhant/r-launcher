@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import cssElse from './css/NotSetTurnClose.module.css'
 import css from './css/Notification.module.css'
 import NotificationBlock from './NotificationBlock'

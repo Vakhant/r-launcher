@@ -31,9 +31,20 @@ body{
 }
 button,input,textarea{
 	font-family: "SFUIDisplay-Medium";
-	font-size: 13px;
+	font-size: 16px;
 	line-height: 24px;
     color: #979898;
+}
+input::placeholder,textarea::placeholder{
+	font-family: "SFUIDisplay-Medium";
+	font-size: 16px;
+	opacity: 1;
+	transition: .3s;
+	color: rgba(255,255,255,.44);
+	transform: translate(0, -1px);
+}
+input:focus::placeholder,textarea:focus::placeholder{
+	opacity: 0;
 }
 a{font-family: "SFUIDisplay-Semibold"; text-decoration: none; color: #48444A;}
 button{font-family: "SFUIDisplay-Medium"; border: none;}

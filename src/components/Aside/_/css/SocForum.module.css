@@ -16,3 +16,5 @@
 	display: flex;
 	opacity: 1;
 }
+.soc_forum a:nth-child(1){margin-left: 2px;}
+.soc_forum a:nth-child(2){margin-right: 2px;}

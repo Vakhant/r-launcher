@@ -9,7 +9,7 @@
   content: '';
   display: block;
   position: absolute;
-	top: 100%;
+	top: 15px;
   left: 50%;
 	transform: translate(-50%, 0);
   border: 10px solid transparent;
@@ -25,12 +25,12 @@
 }
 .app_version_info{
 	position: absolute;
-	top: calc(100% + 10px);
+	top: calc(100% + 22px);
 	left: 50%;
 	transform: translate(-50%, 0);
-  width: 217px;
+  width: 218px;
   background-color: #1f2223;
-  padding: 15px 19px;
+  padding: 15px 18px 11px 18px;
   border-radius: 5px;
   border-bottom: 7px solid #696c6d;
   text-align: center;
@@ -39,13 +39,14 @@
   font-size: 14px;
   opacity: 0;
   visibility: hidden;
-  transition: opacity .5s, top .5s, visibility 0s .5s;
+  transition: opacity .5s, visibility 0s .5s;
 }
 .app_version_info_header{
   color: #fff;
   font-size: 15px;
   letter-spacing: .5px;
-  margin-bottom: 5px;
+  margin-top: 1px;
+  margin-bottom: 4px;
 }
 .app_version:hover, .app_version_wrap_active .app_version{
 	opacity: 1;
@@ -54,7 +55,6 @@
   opacity: 1;
   visibility: visible;
   transition: .5s;
-	top: calc(100% + 20px);
 }
 .app_version_wrap_active:after{
   opacity: 1;

@@ -22,15 +22,21 @@
 }
 .nav_block svg{
 	margin-left: 13px;
+	opacity: 0;
+	transition: .3s;
 }
+.nav_block:hover svg{
+	opacity: 1;
+}
+
 .nav_block:after{
 	content: '';
 	display: block;
 	position: absolute;
-	right: 0;
-	top: -2px;
-    width: 16px;
-    height: 22px;
+	right: 1px;
+	top: -1px;
+    width: 14px;
+    height: 20px;
 	opacity: 0;
 	background: url(../../../_assets/imgs/icons/nav_block_chosen_arrow.svg) no-repeat ;
     background-size: contain;
