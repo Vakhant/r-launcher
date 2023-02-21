@@ -11,6 +11,7 @@
 	cursor: pointer;
 	margin-right: 14px;
 	height: inherit;
+	width: 150px;
 }
 .button_play{
 	border-radius: 5px;
@@ -23,11 +24,13 @@
 	height: 24px;
 }
 .button_play_icon{
-	margin-right: 12px;
+	margin-right: 13px;
+	margin-left: 2px;
 }
 .button_play_txt{
 	font-size: 19px;
 	font-family: 'SFUIDisplay-Medium';
+	margin-bottom: 2px;
 }
 
 .btn_play_act.btn_play_wrap{

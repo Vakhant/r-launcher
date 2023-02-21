@@ -1,27 +1,61 @@
 .notifications_block_ico_wrap{
   width: 40px;
+  height: 30px;
+  margin-top: 4px;
+  margin-right: 6px;
+  position: relative;
+}
+.notifications_block_ico{
+  position: absolute;
+  top: 7px;left: 0;
+  opacity: 0;
+  transition: .6s;
+}
+.notifications_block_ico.notifications_block_ico_active{
+  opacity: 1;
+}
+.notifications_block_ico_wrap_hovered{
+  cursor: pointer;
+  opacity: 0.24;
+  transition: .3s;
+}
+.notifications_block_ico_wrap_hovered:hover{
+  opacity: .74;
 }
 .notifications_block{
+  overflow: hidden;
   transition: .5s;
   opacity: 1;
-  margin-bottom: 20px;
   scroll-snap-align: start;
+  min-height: 100%;
+  width: 192px;
+}
+.notifications_block:last-child{
 }
 .notifications_block_header{
   display: flex;
   align-items: center;
   margin-bottom: 5px;
+  margin-top: 3px;
   color: #fff;
 }
 .notifications_block_hidden{
   height: 0!important;
   transition: .5s;
   margin: 0;
-  transition: opacity .3s, height .3s .5s, margin .6s;
   opacity: 0;
+  min-height: 0;
+  transition: opacity .3s, height .3s .5s, margin .6s, min-height .3s .5s;
 }
 .notifications_remove{
+  margin-right: 8px;
   padding: 0;
   cursor: pointer;
+  margin-top: 4px;
   margin-left: 10px;
+  opacity: .24;
+  transition: .3s;
+}
+.notifications_remove:hover{
+  opacity: 0.74;
 }

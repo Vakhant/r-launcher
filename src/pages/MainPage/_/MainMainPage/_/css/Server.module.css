@@ -48,7 +48,7 @@
 	margin-bottom: 5px;
 }
 .server_nav{
-	margin-top: 5px;
+	margin-top: 3px;
 	margin-left: 46px;
 	display: flex;
 	align-items: center;
@@ -103,7 +103,8 @@
 .server_info{
 	display: flex;
 	flex-wrap: wrap;
-	padding-left: 20px;
+	padding-left: 21px;
+	padding-top: 2px;
 }
 
 .server_wrap{

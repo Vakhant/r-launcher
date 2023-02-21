@@ -6,8 +6,8 @@
 }
 .news_list_block_info{
 	margin-left: 19px;
-	margin-top: 10px;
-	line-height: 17px;
+	margin-top: 9px;
+	line-height: 18px;
 	display: flex;
 	flex-direction: column;
 }
@@ -19,7 +19,7 @@
 	margin-top: 1px;
 }
 .news_list_block_txt{
-	margin-top: 7px;
+	margin-top: 6px;
     height: 18px;
 }
 .news_list_block:hover .news_list_block_txt_hide{

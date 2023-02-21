@@ -5,7 +5,7 @@
         "monitoring_ico": "/imgs/icons/monitoring/server_NF.svg",
         "name":"Night Fury / 1",
         "nameColor":"#4775c1",
-        "coloredComment": "", "comment": "На пополнение / Магазин (Осталось 2 дня)",
+        "coloredComment": "x 2", "comment": "На пополнение / Магазин (Осталось 2 дня)",
         "vip": true,
         "chosen": false,
         "infoList":[
@@ -33,7 +33,7 @@
         "monitoring_ico": "/imgs/icons/monitoring/server_VH.svg",
         "name":"Void Hear / 3",
         "nameColor":"",
-        "coloredComment": "", "comment": "На пополнение / Магазин (Осталось 15 день)",
+        "coloredComment": "x 2", "comment": "На пополнение / Магазин (Осталось 15 день)",
         "vip": false,
         "chosen": false,
         "infoList":[

@@ -5,8 +5,8 @@ const ChosenServer = ({imgSrc, serverName, serverColloredComment, serverComment,
   return (
     <>
       <div className={css.chosen_server}>
-      {imgSrc?<img className={css.chosen_server_icon} width='155' height='125' src={imgSrc} alt="" />:'n'}
-      <span className={css.server_name}>Rapid Motion{star?<img height={25} width={25} className={css.star} src={process.env.PUBLIC_URL+'/imgs/icons/main_page/star.svg'} alt="" />:''}</span>
+      {imgSrc?<img className={css.chosen_server_icon} width='154' height='124' src={imgSrc} alt="" />:'n'}
+      <span className={css.server_name}>Rapid Motion{star?<img height={21} width={22} className={css.star} src={process.env.PUBLIC_URL+'/imgs/icons/main_page/star.svg'} alt="" />:''}</span>
       <div className={css.server_second_name}>{serverName}</div>
       </div>
       <div className={css.server_comment}>

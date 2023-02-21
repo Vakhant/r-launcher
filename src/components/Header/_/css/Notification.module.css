@@ -8,11 +8,11 @@
   position: absolute;
 	left: 50%;
 	transform: translate(-50%, 0);
-  top: calc(100% + 35px);
+  top: calc(100% + 37px);
   padding: 16px 14px;
-  padding-bottom: 0;
+  padding-bottom: 2px;
   background-color: #1f2223;
-  width: 212px;
+  width: 216px;
   font-size: 13px;
   color: #6d6e70;
   line-height: 16px;
@@ -26,7 +26,7 @@
   content: '';
   display: block;
   position: absolute;
-  top: calc(100% + 15px);
+  top: calc(100% + 17px);
   left: 50%;
 	transform: translate(-50%, 0);
   border: 10px solid transparent;
@@ -43,29 +43,37 @@
 }
 .notifications_list{
   height: 126px;
-  overflow-x: auto;
+  overflow-x: scroll!important;
   margin-bottom: 12px;
   padding-left: 8px;
   padding-right: 13px;
   transition: .5s;
-  scroll-snap-type: y mandatory;
 }
 
 .notifications_list::-webkit-scrollbar {
   width: 3px;
   height: 0;
-  background-color: rgba(255, 255, 255, 0.12);
+  background-color: rgba(255, 255, 255, 0.24);
+}
+.notifications_list::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.74);
+    border-radius: 0;
 }
 .notifications_clear_all{
   width: 100%;
   text-align: center;
+  font-family: "SFUIDisplay-Semibold";
   border-top: 2px solid rgba(255, 255, 255, 0.14);
-  padding-top: 14px;
-  padding-bottom: 16px;
+  color: rgba(255,255,255,.64);
+  padding: 15px 0;
   cursor: pointer;
   transform: .5s;
   height: 18px;
   overflow: hidden;
+  transition: .3s;
+}
+.notifications_clear_all:hover{
+  color: rgba(255,255,255,1);
 }
 
 .notifications_wrap:not(.notifications_popup_empty) .notifications{

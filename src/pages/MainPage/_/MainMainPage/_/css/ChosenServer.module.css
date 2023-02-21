@@ -9,11 +9,11 @@
 }
 .chosen_server{
 	position: relative;
-	padding-top: 57px;
+	padding-top: 56px;
 	padding-left: 128px;
 }
 .chosen_server_icon{
-	position: absolute; top: -5px; left: -5px;
+	position: absolute; top: -4px; left: -3px;
 }
 .server_name{
 	font-family: 'Montserrat-BlackItalic';
@@ -39,7 +39,7 @@
 	align-items: center;
 	height: 68px;
 	font-size: 17px;
-	margin-left: 48px;
+    margin-left: 47px;
 }
 .server_comment_ico{
 	font-family: 'The_Stamshons_Demo';

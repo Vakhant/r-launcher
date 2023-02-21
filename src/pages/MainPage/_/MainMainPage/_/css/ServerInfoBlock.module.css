@@ -27,6 +27,7 @@
 }
 .server_info_block_txt{
 	font-size: 14px;
+	margin-top: -1px;
 }
 .server_info_name{
 	opacity: .64;
