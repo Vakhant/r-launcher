@@ -9,6 +9,7 @@
 	visibility: hidden;
 	opacity: 0;
 	transition: opacity .5s, visibility 0s 1s;
+  z-index: 1000;
 }
 .ipth_header{
   width: 804px;

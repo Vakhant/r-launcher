@@ -80,16 +80,6 @@
   display: flex;
   justify-content: space-between;
 }
-.ipth_input_clear{
-  background-color: transparent;
-  border: 0;
-  cursor: pointer;
-  color: #fff;
-  border-bottom: 1px solid rgba(255,255,255,.65);
-  margin-left: 35px;
-  margin-top: 15px;
-  margin-bottom: 40px;
-}
 .form_row{
   width: 100%;
 }

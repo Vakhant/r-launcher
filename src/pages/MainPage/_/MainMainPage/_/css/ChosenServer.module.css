@@ -1,3 +1,15 @@
+.chosen_server_block{
+	position: absolute;
+	top: 0; left: 0;
+	opacity: 0;
+	visibility: hidden;
+    transition: opacity .3s, visibility 0s .6s;
+}
+.chosen_server_block_act{
+	opacity: 1;
+	visibility: visible;
+    transition: opacity  .3s .3s, visibility 0s;
+}
 .server_wrap{
 	width: 496px;
 	border-right: 2px solid rgba(255,255,255,.14);
@@ -11,6 +23,7 @@
 	position: relative;
 	padding-top: 56px;
 	padding-left: 128px;
+	transition: 0s .3s;
 }
 .chosen_server_icon{
 	position: absolute; top: -4px; left: -3px;
@@ -31,8 +44,14 @@
 }
 .star{
 	position: absolute;
-    top: -20px;
-    right: -39px;
+    top: -19px;
+    right: -36px;
+	filter: grayscale(0);
+    transition: .3s;
+	cursor: pointer;
+}
+.star_act{
+	filter: grayscale(1);
 }
 .server_comment{
 	display: flex;
@@ -47,4 +66,7 @@
 	color: #3fa55a;
 	margin-right: 15px;
 	margin-bottom: 5px;
+}
+.serverFM{
+	padding-left: 134px;
 }

@@ -4,30 +4,36 @@
 .all_servers_info{
     width: 817px;
     margin: 30px 0;
-    margin-left: 40px;
+    margin-left: 45px;
+    margin-top: 29px;
     display: flex;
     justify-content: space-between;
     font-size: 17px;
 }
 .all_servers_info_txt{
-    margin-left: 30px;
+    margin-top: 1px;
+    margin-left: 24px;
 }
 .all_servers_info_users_number{
     color: #fff;
     display: flex;
     align-items: center;
+    margin-bottom: 1px;
+    margin-right: 10px;
 }
 .all_servers_info_users_number img{
-    margin-right: 20px;
+    margin-right: 19px;
+    margin-top: 1px;
+    margin-bottom: -1px;
 }
 .servers_list{
     width: 817px;
     margin-left: 40px;
-    height: 380px;
+    height: 382px;
     overflow: scroll;
     margin-bottom: 30px;
     padding-right: 25px;
 }
-.server_list_scroll_hidden::-webkit-scrollbar-thumb{
+/* .server_list_scroll_hidden::-webkit-scrollbar-thumb{
     background-color: rgba(255,255,255,0);
-}
+} */

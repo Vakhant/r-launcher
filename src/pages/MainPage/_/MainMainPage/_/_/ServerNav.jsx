@@ -3,7 +3,7 @@ import css from '../css/ServerNav.module.css'
 import Select from './_/Select'
 import Button from '../../../../../../components/_common/Button'
 
-const ServerNav = ({chosenServer, setServer, serversList}) => {
+const ServerNav = ({chosenServer, setServer, serversList, serversListLength}) => {
   return (
     <div className={css.server_nav}>
       
@@ -15,7 +15,7 @@ const ServerNav = ({chosenServer, setServer, serversList}) => {
       actCntnt={<div className={css.button_play}><div className={css.button_play_txt}>Запущено</div></div>}
       />
           
-          <Select chosenOption={chosenServer} optionList={serversList} optionFuction={setServer}/>
+          <Select serversListLength={serversListLength} chosenOption={chosenServer} optionList={serversList} optionFuction={setServer}/>
     </div>
   )
 }

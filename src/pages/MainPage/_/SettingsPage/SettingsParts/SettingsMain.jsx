@@ -6,7 +6,7 @@ import css from './SettingsMain.module.css'
 
 const SettingsMain = () => {
   return (  
-  <div className={sttngsPrtsCss.settings_parts_content}>
+  <div className={sttngsPrtsCss.settings_parts_content +' '+ sttngsPrtsCss.settings_main_content}>
     <Formik
         initialValues={{ name: "mainSettings", email: "" }}
         onSubmit={(values) => {console.log(values);}}

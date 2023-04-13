@@ -9,12 +9,13 @@
 }
 .btns_imgs{
   opacity: 0.34;
+  transition: .3s;
 }
 .download_btn{
   justify-content: space-between;
   height: 38px;
   margin-left: 20px;
-  margin-top: 9px;
+  margin-top: 8px;
   box-sizing: border-box;
   padding: 0 20px;
 }

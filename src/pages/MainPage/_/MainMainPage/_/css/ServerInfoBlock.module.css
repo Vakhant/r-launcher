@@ -28,6 +28,15 @@
 .server_info_block_txt{
 	font-size: 14px;
 	margin-top: -1px;
+	opacity: 0;
+	visibility: hidden;
+    transition: opacity .3s, visibility 0s .6s;
+}
+.server_info_block_act .server_info_block_txt{
+	opacity: 1;
+	visibility: visible;
+    transition: opacity  .3s .3s, visibility 0s;
+	
 }
 .server_info_name{
 	opacity: .64;

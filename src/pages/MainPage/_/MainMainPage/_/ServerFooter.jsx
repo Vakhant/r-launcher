@@ -4,7 +4,7 @@ import css from './css/ServerFooter.module.css'
 import ProgressBar from './_/ProgressBarBlock'
 import downloadAR from '../../../../../_data/Download.json'
 
-const ServerFooter = ({servFootStt='update-alert'}) => {
+const ServerFooter = ({servFootStt='download'}) => {
 
   let dnldStt = downloadAR.downloadAR.find(el=>el.key === servFootStt)
   // update

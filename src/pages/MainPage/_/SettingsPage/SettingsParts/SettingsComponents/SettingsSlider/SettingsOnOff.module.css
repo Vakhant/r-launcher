@@ -2,7 +2,8 @@
   display: flex;
   align-items: center;
   width: 225px;
-  margin-right: 60px;
+  margin-right: 66px;
+  margin-bottom: 23px;
   cursor: pointer;
 }
 .onOff_block:nth-child(2n+1){
@@ -11,13 +12,13 @@
 .onOff_name{
   color: #e5e7e9;
   font-size: 15px;
-  width: 180px;
+  width: 181px;
   text-align: left;
 }
 .onOff_checkbox{
   height: 16px;
-  width: 41px;
-  border: 2px solid rgba(255,255,255,.35);
+  width: 42px;
+  border: 2px solid rgba(255,255,255,.34);
   border-radius: 3px;
   position: relative;
 }
@@ -25,18 +26,30 @@
   position: absolute;
   width: 18px;
   height: 10px;
-  background: rgba(255,255,255,.35);
+  background: rgba(255,255,255,.34);
   top: 3px;
   left: 3px;
+  border-radius: 1px;
+}
+.onOff_checkbox:hover{
+  border: 2px solid rgba(255,255,255,.74);
+}
+.onOff_checkbox:hover .onOff_checkbox_lever{
+  background: rgba(255,255,255,.74);
 }
 .onOff_checkbox,
 .onOff_checkbox_lever{
   transition: .2s;
 }
-.onOff_checkbox_on{
+.onOff_checkbox_on, .onOff_checkbox_on:hover{
   border: 2px solid #3ba055;
 }
-.onOff_checkbox_on .onOff_checkbox_lever{
-  left: 20px;
+.onOff_checkbox_on .onOff_checkbox_lever,
+.onOff_checkbox_on:hover .onOff_checkbox_lever{
+  left: 21px;
   background: #3ba055;
+}
+.onOff_name_hard{
+  color: #d74854;
+  margin-left: 4px;
 }

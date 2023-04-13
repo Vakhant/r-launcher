@@ -1,9 +1,9 @@
 import React from 'react'
 import css from '../css/ServerInfoBlock.module.css'
 
-const ServerInfoBlock = ({img, data, name}) => {
+const ServerInfoBlock = ({img, data, name, active}) => {
   return (
-    <div className={css.server_info_block}>
+    <div className={css.server_info_block+` ${active?css.server_info_block_act:''}`}>
       <div className={css.server_info_block_img_wrap}>
         <img width={26} height={26} className={css.server_info_block_img} src={img} alt="" />
       </div>

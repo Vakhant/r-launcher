@@ -1,11 +1,10 @@
 .server_block{
     height: 100px;
-    border: 3px solid rgba(255,255,255,.5);
-    margin-bottom: 31px;
+    margin-bottom: 32px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    padding: 0 27px;
+    padding: 3px 30px;
     position: relative;
 }
 .server_block:last-child{
@@ -14,26 +13,15 @@
 .server_block>*{
     z-index: 5;
 }
-.server_block_bg{
-    z-index: 0;
-    position: absolute;
-    width: calc(100% + 4px);
-    height: calc(100% + 4px);
-    left: -2px; top: -2px;
-    background: linear-gradient(90deg, #ffffff30, transparent);
-    transition: .5s;
-    opacity: 0;
-}
-.server_block:hover .server_block_bg{
-    opacity: 1;
-}
 .server_main_info{
-    margin: 0 20px; 
+    margin: 0 16px;
+    margin-right: 18px;
+    min-width: 182px;
 }
 .server_name{
     font-family: 'Montserrat-MediumItalic';
     font-size: 20px;
-    margin-bottom: 5px;
+    margin-bottom: 4px;
 }
 .server_users_number{
     font-size: 15px;
@@ -44,19 +32,46 @@
 }
 .server_block_img{
     height: 100%;
-    width: 83px;
+    width: 85px;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 1px;
 }
 .monitoring_btn{
     justify-content:space-between;
     width:176px;
-    padding: 0 15px;
+    padding: 0 13px;
+    font-size: 15px;
+    transition: .3s;
+}
+.monitoring_btn>*{
+    padding: 0 13px;
+}
+.monitoring_btn:hover{
+    border-color: rgba(255, 255, 255,0);
+    color: rgba(255, 255, 255,.74);
+}
+.monitoring_btn{
+    border: 2px solid rgba(255, 255, 255,0);
+}
+.monitoring_btn_act>*{
+    border-color: rgba(255, 255, 255,0);
+    color: rgba(255, 255, 255,.74);
+}
+.monitoring_btn img{
+    transition: .3s;
+    opacity: .45;
+}
+.monitoring_btn:hover img{
+    opacity: .74;
+}
+.monitoring_btn_act img{
+    opacity: .74;
 }
 .button_play{
     box-sizing: border-box;
-	border-radius: 5px;
+	border-radius: 6px;
 	padding: 0 17px;
     height: 38px;
     width: 106px;
@@ -65,7 +80,23 @@
 	align-items: center;
 	color: #fff;
     cursor: pointer;
-    margin-right: 20px;
+	opacity: 0;
+	visibility: hidden;
+    transition: opacity .3s, visibility 0s .6s;
+}
+.button_play:hover{
+	opacity: .7;
+    transition: .3s;
+}
+.button_play_chosen{
+	opacity: 1;
+	visibility: visible;
+    transition: opacity  .3s .3s, visibility 0s;
+}
+.button_play_act{
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(90deg,#4571ba, #3d67aa);
 }
 .button_play_icon{
 	margin-right: 12px;
@@ -74,21 +105,30 @@
 	font-size: 15px;
 	font-family: 'SFUIDisplay-Medium';
 }
+.server_vip{
+    width: 22px;
+    height: 21px;
+}
 .server_vip_info{
     font-family: 'The_Stamshons_Demo';
     font-size: 32px;
     color: #3fa55a;
+    margin-top: 1px;
+    margin-left: 5px;
 }
 .server_vip_wrap{
-    width: 120px;
+    width: 115px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-right: 20px;
+    margin-right: 35px;
+    margin-left: 1px;
+    margin-top: 1px;
 }
 .server_vip_info_btn{
     width: 22px;
     height: 22px;
+    margin-bottom: 3px;
     padding: 0;
     opacity: 0.7;
     transition: .3s;
@@ -96,7 +136,7 @@
 }
 .monitoring_btn{
     margin-left: auto;
-    height: 34px;
+    height: 38px;
 }
 .server_vip_info_btn:hover{
     opacity: 1;
@@ -104,6 +144,13 @@
 .server_block_chosen .monitoring_btn{
     opacity: 1;
 }
-.server_block_chosen .server_block_bg{
+.server_block_chosen .monitoring_btn{
     opacity: 1;
+}
+.server_block_chosen .monitoring_btn{
+    border-color: rgba(255, 255, 255,.54);
+    color: rgba(255, 255, 255,.74);
+}
+.server_block_chosen .monitoring_btn img{
+    opacity: .74;
 }

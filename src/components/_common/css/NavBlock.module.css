@@ -1,6 +1,6 @@
 .nav_block{
 	font-family: "SFUIDisplay-SemiBold";
-	margin: 0 15px;
+	margin: 0 13px;
 	margin-top: 30px;
 	font-size: 17px;
 	line-height: 1;
@@ -42,12 +42,13 @@
     background-size: contain;
 	transition: .3s;
 }
-a.nav_block_chosen{
+a.nav_block_chosen,
+.nav_block_chosen{
 	color: #e5e7e9;
 }
 .nav_block_chosen:after{
 	opacity: .44;
 }
 .nav_block img{
-	margin: 0 15px;
+	margin: 0 13px;
 }

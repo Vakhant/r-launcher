@@ -2,38 +2,59 @@
     "settingSliders": [
         {"id": 1, "name":"Режим экрана",
             "settingsList":[
-                {"id": 1, "name":"Без рамок", "recomended": false, "choosen": false},
-                {"id": 2, "name":"С рамкой", "recomended": false, "choosen": true},
-                {"id": 3, "name":"Полный экран", "recomended": true, "choosen": false}
+                {"id": 1, "name":"Полноэкран.", "recomended": false, "choosen": false},
+                {"id": 2, "name":"Без рамок", "recomended": true, "choosen": true},
+                {"id": 3, "name":"Оконный", "recomended": false, "choosen": false}
             ]
         },
         {"id": 2, "name":"Разрешение игры",
             "settingsList":[
-                {"id": 1, "name":"120 х 86", "recomended": false, "choosen": false},
-                {"id": 2, "name":"360 х 240", "recomended": false, "choosen": false},
-                {"id": 3, "name":"480 x 360", "recomended": false, "choosen": false},
-                {"id": 4, "name":"1920 x 1080", "recomended": true, "choosen": true}
+                {"id": 1, "name":"1920х1080", "recomended": true, "choosen": true},
+                {"id": 2, "name":"1600х900", "recomended": false, "choosen": false},
+                {"id": 3, "name":"1280х720", "recomended": false, "choosen": false}
             ]
         },
         {"id": 3, "name":"Качество винилов",
             "settingsList":[
-                {"id": 1, "name":"Низкое", "recomended": false, "choosen": false},
-                {"id": 2, "name":"Среднее", "recomended": false, "choosen": false},
-                {"id": 3, "name":"Высокое", "recomended": false, "choosen": false},
-                {"id": 4, "name":"Ультра", "recomended": true, "choosen": true}
+                {"id": 1, "name":"Выключено", "recomended": false, "choosen": false},
+                {"id": 2, "name":"Упрощенное", "recomended": true, "choosen": true},
+                {"id": 3, "name":"Макс. качество", "recomended": false, "choosen": false}
             ]
         },
         {"id": 4, "name":"Внутриигровая графика",
             "settingsList":[
-                {"id": 1, "name":"Низкое", "recomended": false, "choosen": false},
-                {"id": 2, "name":"Среднее", "recomended": false, "choosen": true},
-                {"id": 3, "name":"Высокое", "recomended": false, "choosen": false},
-                {"id": 4, "name":"Ультра", "recomended": true, "choosen": false}
+                {"id": 1, "name":"Высокое", "recomended": false, "choosen": false},
+                {"id": 2, "name":"Среднее", "recomended": true, "choosen": true},
+                {"id": 3, "name":"Низкое", "recomended": false, "choosen": false}
+            ]
+        }
+    ],
+    "settingSliders2": [
+        {"id": 1, "name":"Глобальные тени «SSAO»",
+            "settingsList":[
+                {"id": 1, "name":"Выключено", "recomended": false, "choosen": false},
+                {"id": 2, "name":"х8 (Низкое)", "recomended": false, "choosen": false},
+                {"id": 3, "name":"х16 (Среднее)", "recomended": true, "choosen": true},
+                {"id": 4, "name":"х32 (Макс.)", "recomended": false, "choosen": false}
+            ]
+        },
+        {"id": 2, "name":"Физика капель на т/с",
+            "settingsList":[
+                {"id": 1, "name":"Выключено", "recomended": false, "choosen": false},
+                {"id": 2, "name":"Упрощенное", "recomended": false, "choosen": false},
+                {"id": 3, "name":"Макс. качество", "recomended": true, "choosen": true}
             ]
         }
     ],
     "settingOnOffs": [
         {"id": 1, "name":"Сглаживание «FXAA»", "on": true},
-        {"id": 2, "name":"Улучшенный дождь", "on": false}
+        {"id": 2, "name":"Свечение «Bloom»", "on": true},
+        {"id": 3, "name":"Реалистичные вода", "on": true},
+        {"id": 4, "name":"Реалистичные лужи", "on": true},
+        {"id": 5, "name":"Улучш. свет от фар", "on": false},
+        {"id": 6, "name":"Свет от фонарей", "on": false}
     ]
 }
+
+
+

@@ -4,7 +4,7 @@ import sttngsPrtsCss from './SettingsParts.module.css'
 
 const SettingsPredownload = () => {
   return (
-  <div className={sttngsPrtsCss.settings_parts_content}>
+  <div className={sttngsPrtsCss.settings_parts_content +' '+ sttngsPrtsCss.settings_predownload_content}>
       <Formik
         initialValues={{ name: "settingsPredownload", email: "" }}
         onSubmit={(values) => {console.log(values);}}

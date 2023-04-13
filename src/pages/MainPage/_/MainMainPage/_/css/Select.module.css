@@ -1,10 +1,32 @@
 .select{
 	position: relative;
-    width: 198px;
+    width: 204px;
     color: rgba(255,255,255,.44);
     margin-bottom: 1px;
 }
-.select_arrow{
+.scroll_hidden_blocks_top, .scroll_hidden_blocks_bottom{
+	content: '';
+	display: block;
+	position: absolute;
+	width: 100%;
+	height: 12px;
+	background-color: #1f2223;
+	top: 100px;
+	left: 0;
+	z-index: 200;
+	border-radius: 5px;
+	visibility: hidden;
+	opacity: 0;
+    transition: opacity .3s, visibility 0s .3s;
+}
+.scroll_hidden_blocks_top{
+	top: 56px;
+}
+.scroll_hidden_blocks_bottom{
+	top: 202px;
+}
+.select_arrow,
+.select_arrow_revese{
 	content:'';
 	display: block;
 	position: absolute; top: 0; right: 21px;
@@ -12,44 +34,76 @@
 	background-image: url('../../../../../../_assets/imgs/icons/main_page/select_function.svg');
 	background-repeat: no-repeat;
 	background-position: center;
-	opacity: .44;
-	transition: .3s;
-	transform: scaleY(1);
+	opacity: 0;
+    transition: .2s;
+	transform: scaleY(-1);
 	cursor: pointer;
+	z-index: 5;
+}
+.select_arrow_revese{transform: scaleY(1);}
+.select_arrow_act{
+	opacity: 1;
+	filter: opacity(.34);
+	transition: opacity .2s .2s, filter .2s;
+}
+.select:hover .select_arrow_act{
+	filter: opacity(.74);
 }
 .select_input{
 	font-family: 'SFUIDisplay-Semibold';
 	background-color: inherit;
-	border: 2px solid rgba(255,255,255,.24);
-	color: rgba(255,255,255,.44);
+	border: solid 2px rgba(255, 255, 255, .24);
+    color: rgba(255, 255, 255, .44);
 	padding: 7px 19px;
 	font-size: 16px;
 	line-height: 20px;
-	border-radius: 7px;
-	width: 156px;
+	border-radius: 5px;
+	width: 162px;
 	outline: none;
 	transition: .3s;
 	cursor: pointer;
+	z-index: 30;
+	position: relative;
+}
+.select:hover .select_input{
+	border: solid 2px rgba(255, 255, 255, .54);
+    color: rgba(255, 255, 255, .74);
 }
 .option_list{
 	position: absolute;
-	top: 100%;
+	top: calc(100% + 18px);
 	left: 0;
 	width: 100%;
+	background-color: #1f2223;
+    box-sizing: border-box;
+    padding: 0 31px 0 14px;
 	z-index: 50;
 	visibility: hidden;
 	opacity: 0;
-	transition: opacity .3s, top .3s, visibility 0s;
+    transition: opacity .3s, visibility 0s .3s;
+	max-height: 158px;
+	overflow: auto;
+	border-radius: 5px;
+}
+.option_list_stretch{
+    padding: 0 14px 0 14px;
+}
+.option_list::-webkit-scrollbar {
+    width: 0px;
+    background-color: transparent;
+}
+.option_list::-webkit-scrollbar-thumb {
+    width: 0px;
+    background-color: transparent;
 }
 .option{
-	background-color: #1f2223;
 	display: flex;
-	padding: 0 20px;
-	line-height: 40px;
+	line-height: 38px;
 	cursor: pointer;
-	border-bottom: 1px solid rgba(255,255,255,.24);
-	transition: .3s;
+	padding-left: 7px;
+	border-bottom: 2px solid #3a3d3d;
 	position: relative;
+	z-index: 0;
 }
 .option:first-child{
 	border-radius: 5px 5px 0 0 ;
@@ -59,35 +113,51 @@
 	border-bottom: 0;
 }
 .option:hover, .option_chosen{
-	color: rgba(255,255,255);
+	color: rgba(255,255,255, .74);
 }
 .option:after{
 	content:'';
 	display: block;
-	position: absolute; top: 0; right: 21px;
+	position: absolute; top: 0; right: -2px;
 	width: 21px; height: 100%;
 	background-image: url('../../../../../../_assets/imgs/icons/main_page/select_check-mark.svg');
 	background-repeat: no-repeat;
 	background-position: center;
-	transition: .3s;
 	opacity: 0;
 }
+.option_list_stretch .option:after{right: 7px;}
 .option_chosen:after{
-	opacity: 1;
+	opacity: .74;
+}
+.scroll_bar{
+	position: absolute;
+	left: calc(100% - 17px);
+	top: calc(100% + 30px);
+	height: 134px;
+	background-color: rgba(255,255,255,.24);
+	width: 3px;
+	z-index: 100;
+	visibility: hidden;
+	opacity: 0;
+    transition: opacity .3s, visibility 0s .3s;
+}
+.scroll_bar_block{
+	position: absolute;
+	top: 0; left: 0;
+	width: 3px;
+	height: 47px;
+	background-color: rgba(255,255,255,.74);
 }
 
 
 .select_active .select_input{
 	color: rgb(255,255,255);
 }
-.select_active .select_arrow{
-	color: rgb(255,255,255);
+.select_active .option_list,
+.select_active .scroll_bar,
+.select_active .scroll_hidden_blocks_top,
+.select_active .scroll_hidden_blocks_bottom{
+    transition: .3s;
 	opacity: 1;
-	transform: scaleY(-1);
-}
-.select_active .option_list{
-	opacity: 1;
-	top: calc(100% + 18px);
 	visibility: visible;
-
 }

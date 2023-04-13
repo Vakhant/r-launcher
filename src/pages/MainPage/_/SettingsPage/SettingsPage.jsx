@@ -27,7 +27,7 @@ const SettingsPage = ({settings, setSettings}) => {
             <div className={css.settings_header}>
                 <h2 className={css.settings_h}>
                     <img src={process.env.PUBLIC_URL+'/imgs/icons/big-settings.svg'} alt="" />
-                    Настройки лаунчера и игры
+                    <p>Настройки лаунчера и игры</p>
                 </h2>
                 <button onClick={()=>{setSettings('')}} className={css.settings_esc}><img src={process.env.PUBLIC_URL+'/imgs/icons/header/h_close.svg'} alt="" /></button>
             </div>

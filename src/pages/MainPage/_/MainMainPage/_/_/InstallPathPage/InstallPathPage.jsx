@@ -17,7 +17,7 @@ const InstallPathPage = ({ipthPage, setIpthPage, diskSpaceNeeded='7.2 гб'}) =>
             <InstallPathSlider/>
             <form className={css.ipth_form} action="#">
                 <input className={css.ipth_input} type="text" placeholder='Путь установки игры не указан'/>
-                <Button style={{'width':'92px','height':'44px','marginLeft':'18px'}} buttonStyle={'greyBtn'} content={<>Обзор</>}/>
+                <Button style={{'width':'92px','height':'44px','marginLeft':'18px' ,'padding-top':'2px'}} buttonStyle={'greyBtn'} content={<>Обзор</>}/>
             </form>
             <Button customClasses={css.ipth_btn} buttonStyle={'gradBtn'} link={'#'} content={<>Установить игру</>}/>
         </section>
