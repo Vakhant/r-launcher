@@ -10,7 +10,13 @@ const Server = () => {
 
   let serversList = serverAR.serversList
   const [chosenServer, setServer] = useState('NF')
-	let chosenServerData =  serversList.map(el=> <ServerInfo key={el.key} component={el.infoList.map(nb => <ServerInfoBlock active={el.key===chosenServer} img={process.env.PUBLIC_URL+nb.img} data={nb.data} name={nb.name} key={nb.id}/>)}/>)
+  let serverInfoNames = [
+    "Вы играли",
+    "Последний запуск",
+    "Игроков онлайн",
+    "Серверный пинг"
+  ]
+	let chosenServerData =  serversList.map(el=> <ServerInfo key={el.key} component={el.infoList.map(nb => <ServerInfoBlock active={el.key===chosenServer} img={process.env.PUBLIC_URL+nb.img} data={nb.data} name={serverInfoNames[nb.id-1]} key={nb.id}/>)}/>)
 	let serversListMap = serversList.map(cs=> <ChosenServer
     nameColor={cs.nameColor}
     chosenServer={chosenServer}

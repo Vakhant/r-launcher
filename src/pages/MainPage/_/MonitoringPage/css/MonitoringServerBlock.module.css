@@ -6,6 +6,7 @@
     align-items: center;
     padding: 3px 30px;
     position: relative;
+    width: 752px;
 }
 .server_block:last-child{
     margin-bottom: 0;
@@ -22,8 +23,10 @@
     font-family: 'Montserrat-MediumItalic';
     font-size: 20px;
     margin-bottom: 4px;
+    line-height: 24px;
 }
 .server_users_number{
+    line-height: 24px;
     font-size: 15px;
     font-family: 'SFUIDisplay-Regular';
 }
@@ -53,10 +56,10 @@
     color: rgba(255, 255, 255,.74);
 }
 .monitoring_btn{
-    border: 2px solid rgba(255, 255, 255,0);
+    border: 2px solid rgba(255, 255, 255,.44);
 }
 .monitoring_btn_act>*{
-    border-color: rgba(255, 255, 255,0);
+    border-color: rgba(255, 255, 255,.34);
     color: rgba(255, 255, 255,.74);
 }
 .monitoring_btn img{
@@ -92,6 +95,10 @@
 	opacity: 1;
 	visibility: visible;
     transition: opacity  .3s .3s, visibility 0s;
+}
+.button_play_FRP{
+    filter: opacity(0);
+    cursor: inherit;
 }
 .button_play_act{
     display: flex;
@@ -134,6 +141,10 @@
     transition: .3s;
     cursor: pointer;
 }
+.server_vip_info_btn_hidden{
+    filter: opacity(0);
+    cursor: initial;
+}
 .monitoring_btn{
     margin-left: auto;
     height: 38px;
@@ -148,7 +159,7 @@
     opacity: 1;
 }
 .server_block_chosen .monitoring_btn{
-    border-color: rgba(255, 255, 255,.54);
+    border-color: rgba(255, 255, 255,.34);
     color: rgba(255, 255, 255,.74);
 }
 .server_block_chosen .monitoring_btn img{

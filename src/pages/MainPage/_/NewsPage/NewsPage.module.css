@@ -24,10 +24,10 @@ section.news_list{
 	min-height: 201px;
 }
 section.news_list>*:last-child{
-	margin-bottom: 0;
+	margin-bottom: 10px;
 }
 section.news_list>*:nth-last-child(2){
-	margin-bottom: 0;
+	margin-bottom: 10px;
 }
 
 .news_list_scrollo{

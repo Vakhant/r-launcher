@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import css from './css/NotificationBlock.module.css'
 
-const NotificationBlock = ({id, txt, name, checked}) => {
+const NotificationBlock = ({hideNot, id, txt, name, checked}) => {
   const [hidden, setHidden] = useState(false)
   const [height, setHeight] = useState(false)
   const [checkedly, setCheckedly] = useState(checked)
@@ -18,7 +18,7 @@ const NotificationBlock = ({id, txt, name, checked}) => {
           <img src={process.env.PUBLIC_URL+'/imgs/icons/header/notif_one-check-mark.svg'} alt="" className={css.notifications_block_ico+` ${checkedly?'':css.notifications_block_ico_active}`} />
         </div>
         {name}
-        <div className={css.notifications_remove} onClick={()=>setHidden(true)}><img src={process.env.PUBLIC_URL+'/imgs/icons/header/notif_close.svg'} alt="" className="notifications_block_ico" /></div>
+        <div className={css.notifications_remove} onClick={()=>{hideNot(id-1);setHidden(true)}}><img src={process.env.PUBLIC_URL+'/imgs/icons/header/notif_close.svg'} alt="" className="notifications_block_ico" /></div>
       </div>
       {txt}
     </div>

@@ -3,7 +3,7 @@ import Button from './../../../../components/_common/Button'
 import css from './css/MonitoringServerBlock.module.css'
 import ServerBlockBR from './ServerBlockBR'
 
-const MonitoringServerBlock = ({keyN, id, setChosenServer, infoCall, imgSrc, serverName, serverColloredComment, star, nameColor, chosen}) => {
+const MonitoringServerBlock = ({firstRunPageRecS=false, keyN, id, setChosenServer, infoCall, imgSrc, serverName, serverColloredComment, star, nameColor, chosen}) => {
   const [starAct, setStarAct] = useState(star)
   const [btnAct, setBtnAct] = useState(true)
   
@@ -28,8 +28,7 @@ const MonitoringServerBlock = ({keyN, id, setChosenServer, infoCall, imgSrc, ser
           <img src={process.env.PUBLIC_URL+"/imgs/icons/monitoring/info_server.svg"} alt="" />
         </button>:<div></div>}
       </div>
-
-      <button onClick={()=>setBtnAct(!btnAct)} className={css.button_play+` ${chosen?css.button_play_chosen:""}`+` ${btnAct?css.button_play_act:""}`}>
+      <button disabled={firstRunPageRecS} onClick={()=>setBtnAct(!btnAct)} className={css.button_play+` ${chosen?css.button_play_chosen:""}`+` ${firstRunPageRecS?css.button_play_FRP:""}`+` ${btnAct?css.button_play_act:""}`}>
       {btnAct?"Запущено":<><img width={11} height={14} className={css.button_play_icon} src={process.env.PUBLIC_URL+'/imgs/icons/play_game.svg'} alt="" />
         <div className={css.button_play_txt}>Играть</div></>}
       </button>
@@ -37,7 +36,7 @@ const MonitoringServerBlock = ({keyN, id, setChosenServer, infoCall, imgSrc, ser
       content={<>Выбрать сервер <img style={{'marginRight':'3px'}} width={12} height={12} className={css.btns_imgs} src={process.env.PUBLIC_URL+'/imgs/icons/popup_main_close.svg'} alt=""/></>}
       actCntnt={<>Сервер выбран <img style={{'marginRight':'1px'}} width={16} height={12} className={css.btns_imgs} src={process.env.PUBLIC_URL+'/imgs/icons/main_page/select_check-mark.svg'} alt=""/></>}
       />
-    </div>
+      </div>
   )
 }
 

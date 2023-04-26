@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import css from './css/MainPopup.module.css'
 
-const PopupMain = ({type, header, content, active, activate}) => {
+const PopupMain = ({type, header, content, active, activate, customClasses}) => {
   let headerClass
   let imgSrc
   switch (type) {

@@ -54,7 +54,7 @@
         ]},
         {"id": 5,
         "key": "problems_with_site",
-        "name": "Проблемы с сайтом",
+        "name": "Сайт проекта",
         "helpBlockList":[
             {"id": 1, "key":"incolus", "name": "лол",  "txt":  "<p>кек</p>",
             "link": "#", "linkTxt": "Более подробная информация"},
@@ -93,7 +93,7 @@
         ]},
         {"id": 8,
         "key": "Faq",
-        "name": "Другое & Остальное",
+        "name": "Остальная инф.",
         "helpBlockList":[
             {"id": 1, "key":"numquam", "name": "лол",  "txt":  "<p>кек</p>",
             "link": "#", "linkTxt": "Более подробная информация"},

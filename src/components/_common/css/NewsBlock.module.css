@@ -10,6 +10,7 @@
 	line-height: 18px;
 	display: flex;
 	flex-direction: column;
+	position: relative;
 }
 .news_list_block_name{
 	color: #fff;
@@ -20,10 +21,18 @@
 }
 .news_list_block_txt{
 	margin-top: 6px;
-    height: 18px;
+    /* height: 18px; */
+    width: 150px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
 }
 .news_list_block:hover .news_list_block_txt_hide{
     overflow: hidden;
+}
+.news_list_block:hover .news_list_block_txt{
+    height: 18px;
 }
 .news_list_block_link{
 	display: none;

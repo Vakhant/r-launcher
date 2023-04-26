@@ -12,7 +12,6 @@ p, h1, h2, h3, h4, h5{-webkit-margin-before: 0; -webkit-margin-after: 0; margin:
 @font-face{font-family: The_Stamshons_Demo; src: url(./_assets/fonts/The_Stamshons_Demo.otf);}
 /* @font-face{font-family: SFUIDisplay-Regular; src: url(fonts/SFUIDisplay-Regular.ttf);} */
 
-*::selection{background-color: rgba(255,255,255,.9);}
 
 body{
 	font-family: "SFUIDisplay-Medium";
@@ -86,4 +85,4 @@ footer{
     height: 0;
 }
 
-.grey_txt{color: #aeabab; margin-top: 8px; font-size: 15px; line-height: 26px;}
+.grey_txt{color: #aeabab; margin-bottom: 15px; font-size: 15px; line-height: 26px; display: inline-block;}

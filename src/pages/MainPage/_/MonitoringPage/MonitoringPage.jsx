@@ -4,6 +4,8 @@ import css from './css/MonitoringPage.module.css'
 import MonitoringServerBlock from './MonitoringServerBlock.jsx'
 import serverAR from '../../../../_data/Server.json'
 import PopupMain from '../../../../components/_common/PopupMain'
+import popupMainCSS from '../../../../components/_common/css/popupMainCSS.module.css'
+import Button from '../../../../components/_common/Button'
 
 
 const MonitoringPage = () => {
@@ -42,9 +44,15 @@ const MonitoringPage = () => {
           {localSrvrBlckLi.map(sb => <MonitoringServerBlock keyN={sb.key} chosenServer={chosenServer} setChosenServer={setChosenServer} infoCall={setPopupAct} imgSrc={process.env.PUBLIC_URL+sb.monitoring_ico} serverName={sb.name} serverColloredComment={sb.coloredComment} star={sb.vip}
            nameColor={sb.nameColor} chosen={sb.chosen} key={sb.id} id={sb.id}/>)}
         </div>
-        <PopupMain active={popupAct} activate={setPopupAct} header={'Информация по акции'} type={'info'} content={<>X2 при пополнении<br /> <div className='grey_txt'>Специально для новых игроков, действует акция
-          «X2 при пополнении». Акция действует только
-          при первом пополнении!</div></>}/>
+          {/* у окна три состояния type=(alert - red, attention - yellow, info - green) */}
+        <PopupMain active={popupAct} activate={setPopupAct} header={'Информация по акции'} type={'info'} content={<>
+        <span className={popupMainCSS.popup_name_comment}>X2 при пополнении</span>
+        <div className='grey_txt'>Специально для новых игроков, действует акция
+«X2 при пополнении». Акция действует только
+при первом пополнении!
+          </div>
+          {/* <Button style={{'width':'282px', 'height': "38px", 'margin': '0 0 5px 0'}} buttonStyle={'greyBtn'} content={'Переслать письмо подтверждения'} /> */}
+          </>}/>
         <footer></footer>
       </section>
     </>

@@ -18,9 +18,9 @@ function App() {
   return (
     <HashRouter>
           <Routes>
-              <Route path="/" element={<MainPage pageComponent={<MainMainPage/>}/>}/>
-              <Route path="*" element={<MainPage pageComponent={<MainMainPage/>}/>}/>
-              <Route index element={<MainPage pageComponent={<MainMainPage/>}/>}/>
+              <Route path="/" element={<Navigate to="/main/prim" replace />}/>
+              <Route path="*" element={<Navigate to="/main/prim" replace />}/>
+              <Route index element={<Navigate to="/main/prim" replace />}/>
               <Route path="main/prim/first_run_page" element={<MainPage pageComponent={<FirstRunPage/>}/>}/>
               <Route path="main/prim" element={<MainPage pageComponent={<MainMainPage/>}/>}/>
               <Route path="main/monitoring" element={<MainPage pageComponent={<MonitoringPage/>}/>}/>
@@ -34,7 +34,7 @@ function App() {
               <Route path="main/news" element={<MainPage pageComponent={<NewsPage/>}/>}/>
               <Route exact path="main/help" element={<MainPage pageComponent={<HelpPage/>}/>}/>
               <Route exact path="main/help/:section" element={<MainPage pageComponent={<HelpPage/>}/>}/>
-              <Route path="main" element={<MainPage pageComponent={<MainMainPage/>}/>}/>
+              <Route path="main" element={<Navigate to="/main/prim" replace />}/>
             <Route path="/auth/:auth_page" element={<AuthPage/>}/>
             <Route path="/install/welcome" element={<Welcome/>}/>
             <Route path="/install/install_path" element={<InstallPath/>}/>

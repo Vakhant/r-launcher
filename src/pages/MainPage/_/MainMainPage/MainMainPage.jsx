@@ -10,7 +10,6 @@ import InstallPathPage from './_/_/InstallPathPage/InstallPathPage'
 const MainMainPage = () => {
   const [ipthPage, setIpthPage] = useState(true)
   let newsList = newsAR.newsList.filter(n=>n.id<5)
-  console.log(newsList);
   return (
     <>
       <section className={css.main_content}>
