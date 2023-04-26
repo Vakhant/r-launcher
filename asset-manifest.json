@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/r-launcher/static/css/main.d7d9eb95.css",
-    "main.js": "/r-launcher/static/js/main.76ac9927.js",
+    "main.css": "/r-launcher/static/css/main.5f4876a3.css",
+    "main.js": "/r-launcher/static/js/main.9f0e40d8.js",
     "static/js/787.2465c865.chunk.js": "/r-launcher/static/js/787.2465c865.chunk.js",
     "static/media/bg.png": "/r-launcher/static/media/bg.df8cf6fc6faf5ce8f72d.png",
     "static/media/Montserrat-MediumItalic.ttf": "/r-launcher/static/media/Montserrat-MediumItalic.1fb3253f48940611209a.ttf",
@@ -36,12 +36,12 @@
     "static/media/settings_mini-check-mark.svg": "/r-launcher/static/media/settings_mini-check-mark.a7837c64603de975fab2.svg",
     "static/media/h_rapid-coins.svg": "/r-launcher/static/media/h_rapid-coins.c81fd13a7791679d3684.svg",
     "static/media/nav_block_chosen_arrow.svg": "/r-launcher/static/media/nav_block_chosen_arrow.c27e6f5abd931936afb7.svg",
-    "main.d7d9eb95.css.map": "/r-launcher/static/css/main.d7d9eb95.css.map",
-    "main.76ac9927.js.map": "/r-launcher/static/js/main.76ac9927.js.map",
+    "main.5f4876a3.css.map": "/r-launcher/static/css/main.5f4876a3.css.map",
+    "main.9f0e40d8.js.map": "/r-launcher/static/js/main.9f0e40d8.js.map",
     "787.2465c865.chunk.js.map": "/r-launcher/static/js/787.2465c865.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d7d9eb95.css",
-    "static/js/main.76ac9927.js"
+    "static/css/main.5f4876a3.css",
+    "static/js/main.9f0e40d8.js"
   ]
 }
