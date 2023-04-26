@@ -11,7 +11,7 @@
 .username_txt{font-size: 17px; cursor: pointer; }
 .profile_menu{position: relative;}
 .username_imgs_wrap.avatar_chosen{
-	background: #596472;
+	background: #3d4845;
 }
 .avatar_chosen .username_img_avatar{
 	display: block;
